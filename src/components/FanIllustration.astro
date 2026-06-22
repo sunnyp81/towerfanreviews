@@ -1,0 +1,72 @@
+---
+// Branded SVG tower-fan illustrations. Zero network cost, no CLS.
+// variants: standard | bladeless | tall | mini | heater
+interface Props {
+  variant?: 'standard' | 'bladeless' | 'tall' | 'mini' | 'heater';
+  class?: string;
+  label?: string;
+}
+const { variant = 'standard', class: cls = '', label = 'Tower fan illustration' } = Astro.props;
+const uid = Math.random().toString(36).slice(2, 8);
+const heat = variant === 'heater';
+const g1 = heat ? '#ff9a45' : '#22c6ec';
+const g2 = heat ? '#f9591f' : '#06a4c4';
+const g3 = heat ? '#e6440c' : '#0e6884';
+---
+<svg viewBox="0 0 200 260" role="img" aria-label={label} class={cls} xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id={`body-${uid}`} x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#eef9fc" />
+    </linearGradient>
+    <linearGradient id={`accent-${uid}`} x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color={g1} />
+      <stop offset="0.5" stop-color={g2} />
+      <stop offset="1" stop-color={g3} />
+    </linearGradient>
+    <radialGradient id={`glow-${uid}`} cx="0.5" cy="0.32" r="0.6">
+      <stop offset="0" stop-color={g1} stop-opacity="0.35" />
+      <stop offset="1" stop-color={g1} stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- air glow -->
+  <ellipse cx="100" cy="78" rx="92" ry="78" fill={`url(#glow-${uid})`} />
+
+  <!-- base -->
+  <ellipse cx="100" cy="244" rx="46" ry="11" fill="#cfeaf1" />
+  <path d="M78 232 h44 l6 12 h-56 z" fill="#dceef3" />
+
+  <!-- column -->
+  {variant === 'mini' ? (
+    <rect x="74" y="120" width="52" height="116" rx="26" fill={`url(#body-${uid})`} stroke="#cfe7ee" stroke-width="2" />
+  ) : (
+    <rect x="76" y={variant === 'tall' ? 36 : 60} width="48" height={variant === 'tall' ? 200 : 176} rx="24" fill={`url(#body-${uid})`} stroke="#cfe7ee" stroke-width="2" />
+  )}
+
+  <!-- grille / outlet -->
+  {variant === 'bladeless' ? (
+    <g>
+      <ellipse cx="100" cy={variant === 'tall' ? 92 : 108} rx="34" ry="56" fill="none" stroke={`url(#accent-${uid})`} stroke-width="10" />
+      <ellipse cx="100" cy={variant === 'tall' ? 92 : 108} rx="20" ry="40" fill="#f3fbfd" />
+    </g>
+  ) : (
+    <g stroke={`url(#accent-${uid})`} stroke-width="3" stroke-linecap="round" opacity="0.92">
+      {Array.from({ length: variant === 'mini' ? 7 : 11 }).map((_, i) => {
+        const top = variant === 'mini' ? 132 : variant === 'tall' ? 52 : 74;
+        const y = top + i * (variant === 'mini' ? 13 : 13);
+        return <line x1="84" y1={y} x2="116" y2={y} />;
+      })}
+    </g>
+  )}
+
+  <!-- control dot -->
+  <circle cx="100" cy={variant === 'mini' ? 224 : variant === 'tall' ? 246 : 224} r="5" fill={g2} />
+
+  <!-- breeze lines -->
+  <g stroke={g2} stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M150 96 q16 -8 30 0" />
+    <path d="M150 116 q20 -10 38 0" />
+    <path d="M150 136 q14 -7 26 0" />
+  </g>
+</svg>

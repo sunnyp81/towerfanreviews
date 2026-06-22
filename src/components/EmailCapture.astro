@@ -1,0 +1,30 @@
+---
+// Newsletter opt-in via StaticForms (shared portfolio key). Honeypot included.
+interface Props { heading?: string; sub?: string; compact?: boolean; }
+const {
+  heading = 'Get the best tower fan deals',
+  sub = 'Join our list for hand-picked UK cooling deals and new reviews. No spam, unsubscribe anytime.',
+  compact = false,
+} = Astro.props;
+const ACCESS_KEY = 'sf_9e906eb6c00416b9d3354749';
+---
+<section class={`not-prose relative overflow-hidden rounded-2xl bg-breeze-900 text-white ${compact ? 'p-6' : 'p-8 sm:p-10'}`}>
+  <div class="absolute inset-0 opacity-30 bg-dot-grid" aria-hidden="true"></div>
+  <div class="absolute -right-10 -top-10 w-48 h-48 rounded-full" style="background:radial-gradient(circle,rgba(34,198,236,.5),transparent 70%)" aria-hidden="true"></div>
+  <div class="relative grid gap-5 md:grid-cols-2 md:items-center">
+    <div>
+      <h2 class="text-white text-2xl m-0">{heading}</h2>
+      <p class="mt-2 text-breeze-100 text-sm leading-relaxed">{sub}</p>
+    </div>
+    <form action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col sm:flex-row gap-3">
+      <input type="hidden" name="accessKey" value={ACCESS_KEY} />
+      <input type="hidden" name="subject" value="towerfanreviews.uk newsletter signup" />
+      <input type="hidden" name="$site" value="towerfanreviews.uk" />
+      <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <label class="sr-only" for="tf-email">Email address</label>
+      <input id="tf-email" type="email" name="email" required placeholder="you@email.com"
+        class="flex-1 rounded-xl px-4 py-3 text-ink-900 bg-white placeholder:text-ink-400 focus:outline-none" />
+      <button type="submit" class="btn btn-cta whitespace-nowrap">Subscribe</button>
+    </form>
+  </div>
+</section>

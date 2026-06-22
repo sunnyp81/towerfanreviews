@@ -1,0 +1,22 @@
+---
+import Base from '@layouts/Base.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import EmailCapture from '@components/EmailCapture.astro';
+import { SITE, graph, breadcrumbSchema, orgSchema, canonical } from '@lib/seo';
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'About', url: '/about/' }];
+const schema = graph(orgSchema(), breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
+---
+<Base title="About Tower Fan Reviews" description="Who we are and why you can trust Tower Fan Reviews, an independent UK site that buys and tests tower fans to give honest, useful buying advice." path="/about/" schema={schema}>
+  <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-3xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">About Tower Fan Reviews</h1><p class="mt-4 text-lg text-ink-500">Honest, independent tower fan advice for UK homes.</p></div></section>
+  <div class="mx-auto max-w-3xl px-4 py-12 prose-tf">
+    <p>Tower Fan Reviews exists for one reason: choosing a tower fan in the UK is more confusing than it should be. Dozens of near-identical models, inflated marketing claims about "powerful" airflow, and very little honest information about noise or running costs.</p>
+    <p>We fix that by doing the boring work for you. We buy tower fans with our own money, live with them through real British heatwaves, and judge them on the things that genuinely matter, airflow, noise, running cost, features and build quality.</p>
+    <h2>We're independent</h2>
+    <p>We don't take payment for reviews or rankings. We're funded through affiliate links: when you buy through a link on our site, we may earn a small commission at no extra cost to you. That commission never changes our verdict, plenty of expensive fans sit below cheaper ones in our rankings because they earned their place.</p>
+    <h2>How we keep advice current</h2>
+    <p>Tower fan ranges change every year and prices move constantly, especially in summer. We re-check our top picks and prices regularly and update the "last updated" date on every page so you always know how fresh our advice is.</p>
+    <h2>Get in touch</h2>
+    <p>Spotted something that needs updating, or want us to test a specific fan? <a href="/contact/">Contact us</a>, we read everything.</p>
+    <div class="mt-10 not-prose"><EmailCapture /></div>
+  </div>
+</Base>

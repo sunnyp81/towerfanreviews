@@ -1,0 +1,41 @@
+---
+import { type Product, affiliateUrl } from '@data/products';
+import RatingStars from './RatingStars.astro';
+interface Props { products: Product[]; specLabels?: string[]; caption?: string; }
+const { products, caption } = Astro.props;
+// Union of spec labels in first-seen order, capped for readability
+const labels: string[] = [];
+for (const p of products) for (const s of p.specs) if (!labels.includes(s.label)) labels.push(s.label);
+const specLabels = (Astro.props.specLabels ?? labels).slice(0, 5);
+const valueOf = (p: Product, label: string) => p.specs.find((s) => s.label === label)?.value ?? '-';
+---
+<div class="tf-table-wrap not-prose">
+  <table class="tf-table">
+    {caption && <caption class="sr-only">{caption}</caption>}
+    <thead>
+      <tr>
+        <th scope="col">Tower fan</th>
+        <th scope="col">Rating</th>
+        {specLabels.map((l) => <th scope="col">{l}</th>)}
+        <th scope="col">Price</th>
+        <th scope="col"><span class="sr-only">Buy</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {products.map((p) => (
+        <tr>
+          <th scope="row" class="!text-left font-display font-semibold text-ink-900">
+            {p.award && <span class="block text-[0.65rem] font-semibold uppercase tracking-wide text-heat-500">{p.award}</span>}
+            {p.hasReview ? <a href={`/${p.slug}/`} class="text-breeze-700 hover:text-heat-500">{p.name}</a> : p.name}
+          </th>
+          <td><RatingStars rating={p.rating} size="sm" /></td>
+          {specLabels.map((l) => <td>{valueOf(p, l)}</td>)}
+          <td class="whitespace-nowrap font-semibold text-ink-900">{p.priceGBP ? `~£${p.priceGBP}` : '-'}</td>
+          <td>
+            <a href={affiliateUrl(p)} target="_blank" rel="nofollow sponsored noopener noreferrer" class="btn btn-cta !px-3 !py-2 text-sm whitespace-nowrap">Check price</a>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

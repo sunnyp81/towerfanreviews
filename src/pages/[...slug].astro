@@ -1,0 +1,145 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '@layouts/Base.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import SpecBox from '@components/SpecBox.astro';
+import ProsCons from '@components/ProsCons.astro';
+import ComparisonTable from '@components/ComparisonTable.astro';
+import ProductCard from '@components/ProductCard.astro';
+import FAQ from '@components/FAQ.astro';
+import AdSlot from '@components/AdSlot.astro';
+import EmailCapture from '@components/EmailCapture.astro';
+import RatingStars from '@components/RatingStars.astro';
+import { getProduct, getProducts } from '@data/products';
+import { SITE, canonical, graph, breadcrumbSchema, faqSchema, reviewSchema, itemListSchema } from '@lib/seo';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).filter((a) => !a.data.draft);
+  return all.map((entry) => ({ params: { slug: entry.id }, props: { entry, all } }));
+}
+
+const { entry, all } = Astro.props;
+const { data } = entry;
+const { Content, headings } = await render(entry);
+
+const path = `/${entry.id}/`;
+const h1 = data.h1 ?? data.title;
+
+// title/slug lookup for related + items
+const titleBySlug = new Map(all.map((a) => [a.id, a.data.title]));
+
+const product = data.productSlug ? getProduct(data.productSlug) : undefined;
+const items = data.items ? getProducts(data.items) : [];
+
+// Breadcrumbs
+const sectionMap: Record<string, { name: string; url: string }> = {
+  review: { name: 'Reviews', url: '/best-tower-fans/' },
+  roundup: { name: 'Best of', url: '/best-tower-fans/' },
+  brand: { name: 'Brands', url: '/brands/' },
+  guide: { name: 'Guides', url: '/guides/' },
+};
+const section = sectionMap[data.kind];
+const crumbs = [
+  { name: 'Home', url: '/' },
+  ...(section ? [section] : []),
+  { name: data.title, url: path },
+];
+
+// TOC from h2
+const toc = headings.filter((h) => h.depth === 2);
+
+// Schema graph
+const schemaNodes: object[] = [breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) })))];
+if (product) schemaNodes.push(reviewSchema({ name: product.name, brand: product.brand, rating: product.rating, description: data.description, url: canonical(path), image: product.image }));
+if (items.length) schemaNodes.push(itemListSchema(items.map((p) => ({ name: p.name, url: p.hasReview ? canonical(`/${p.slug}/`) : canonical(path) }))));
+const fq = faqSchema(data.faqs);
+if (fq) schemaNodes.push(fq);
+const schema = graph(...schemaNodes);
+
+const related = data.relatedSlugs.map((s) => ({ slug: s, title: titleBySlug.get(s) })).filter((r) => r.title);
+const updated = (data.updatedDate ?? data.publishDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+const isList = data.kind === 'roundup' || data.kind === 'brand';
+---
+<Base title={data.title} description={data.description} path={path} schema={schema} ogImage={data.ogImage}>
+  <!-- Hero -->
+  <section class="bg-breeze-mesh border-b border-breeze-100">
+    <div class="mx-auto max-w-6xl px-4 pt-6 pb-10">
+      <Breadcrumbs crumbs={crumbs} />
+      <div class="mt-5 max-w-3xl">
+        {data.heroEyebrow && <p class="text-sm font-semibold uppercase tracking-wide text-breeze-600">{data.heroEyebrow}</p>}
+        <h1 class="mt-2 text-4xl sm:text-5xl leading-[1.05]">{h1}</h1>
+        <p class="mt-4 text-lg text-ink-500 leading-relaxed">{data.description}</p>
+        <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-ink-400">
+          <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>Updated {updated}</span>
+          {product && <span class="inline-flex items-center gap-1.5"><RatingStars rating={product.rating} size="sm" /></span>}
+          <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Independently tested</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-6xl px-4 py-10 grid lg:grid-cols-[1fr_280px] gap-10">
+    <article class="min-w-0">
+      <!-- Review at-a-glance -->
+      {product && <div class="mb-8"><SpecBox product={product} /></div>}
+
+      <!-- Roundup picks -->
+      {isList && items.length > 0 && (
+        <div class="mb-10">
+          <h2 class="text-2xl mb-4">At a glance: our top picks</h2>
+          <ComparisonTable products={items} caption={`${data.title} comparison`} />
+          <div class="grid sm:grid-cols-2 gap-5 mt-6">
+            {items.map((p, i) => <ProductCard product={p} rank={i + 1} />)}
+          </div>
+        </div>
+      )}
+
+      <AdSlot id="top" format="inline" />
+
+      <!-- Written content -->
+      <div class="prose-tf max-w-none">
+        <Content />
+      </div>
+
+      <!-- Review pros/cons -->
+      {product && <ProsCons pros={product.pros} cons={product.cons} />}
+
+      <AdSlot id="mid" format="rectangle" />
+
+      <!-- FAQ -->
+      {data.faqs.length > 0 && <FAQ faqs={data.faqs} />}
+
+      <!-- Related -->
+      {related.length > 0 && (
+        <section class="not-prose mt-12 border-t border-breeze-100 pt-8">
+          <h2 class="text-2xl mb-4">Related reading</h2>
+          <ul class="grid sm:grid-cols-2 gap-3">
+            {related.map((r) => (
+              <li><a href={`/${r.slug}/`} class="flex items-center gap-2 rounded-xl border border-breeze-100 bg-white p-4 card-lift font-medium text-ink-900 hover:text-breeze-700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>{r.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <div class="mt-12"><EmailCapture /></div>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="hidden lg:block">
+      <div class="sticky top-24 space-y-6">
+        {toc.length > 1 && (
+          <nav aria-label="On this page" class="rounded-2xl border border-breeze-100 bg-white p-5 shadow-card">
+            <p class="font-display font-semibold text-sm text-ink-900 mb-3">On this page</p>
+            <ul class="space-y-2 text-sm">
+              {toc.map((h) => <li><a href={`#${h.slug}`} class="text-ink-500 hover:text-breeze-700 block leading-snug">{h.text}</a></li>)}
+            </ul>
+          </nav>
+        )}
+        <div class="rounded-2xl bg-breeze-900 text-white p-5 shadow-lift">
+          <p class="font-display font-semibold mb-1">Quick answer</p>
+          <p class="text-sm text-breeze-100/90 leading-relaxed">For most UK homes the best all-round choice is a quiet, oscillating tower fan with a timer and remote. See our <a href="/best-tower-fans/" class="underline hover:text-white">top picks</a>.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</Base>

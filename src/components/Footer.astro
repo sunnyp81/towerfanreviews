@@ -1,0 +1,59 @@
+---
+import { SITE } from '@lib/seo';
+const year = 2026;
+const cols = [
+  { title: 'Best of', links: [
+    { name: 'Best Tower Fans', href: '/best-tower-fans/' },
+    { name: 'Best Bladeless', href: '/best-bladeless-tower-fans/' },
+    { name: 'Hot & Cold Fans', href: '/best-tower-fan-heaters/' },
+    { name: 'Quiet Tower Fans', href: '/best-quiet-tower-fans/' },
+    { name: 'With Remote', href: '/best-tower-fans-with-remote/' },
+  ]},
+  { title: 'By brand', links: [
+    { name: 'Dyson', href: '/dyson-tower-fans/' },
+    { name: 'Dreo', href: '/dreo-tower-fans/' },
+    { name: 'Levoit', href: '/levoit-tower-fans/' },
+    { name: 'Honeywell', href: '/honeywell-tower-fans/' },
+    { name: 'All brands', href: '/brands/' },
+  ]},
+  { title: 'Guides', links: [
+    { name: 'Tower fan buying guide', href: '/tower-fan-buying-guide/' },
+    { name: 'Running costs', href: '/tower-fan-running-cost/' },
+    { name: 'How to clean a tower fan', href: '/how-to-clean-a-tower-fan/' },
+    { name: 'All guides', href: '/guides/' },
+  ]},
+  { title: 'About', links: [
+    { name: 'About us', href: '/about/' },
+    { name: 'How we test', href: '/how-we-test/' },
+    { name: 'Contact', href: '/contact/' },
+    { name: 'Privacy & affiliate disclosure', href: '/privacy/' },
+  ]},
+];
+---
+<footer class="mt-20 bg-breeze-950 text-breeze-100">
+  <div class="mx-auto max-w-6xl px-4 py-14">
+    <div class="grid gap-10 md:grid-cols-[1.4fr_repeat(4,1fr)]">
+      <div>
+        <div class="flex items-center gap-2.5">
+          <span class="grid place-items-center w-9 h-9 rounded-xl bg-breeze-500" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M12 12a4 4 0 1 0-4-4"/><path d="M12 12a4 4 0 1 1 4 4"/><path d="M12 12a4 4 0 1 0 4-4"/><path d="M12 12a4 4 0 1 1-4 4"/></svg>
+          </span>
+          <span class="font-display font-bold text-lg text-white">Tower Fan Reviews</span>
+        </div>
+        <p class="mt-4 text-sm text-breeze-200/80 max-w-xs leading-relaxed">{SITE.tagline}. We buy and test tower fans in real UK homes so you can pick the right one with confidence.</p>
+      </div>
+      {cols.map((c) => (
+        <div>
+          <h3 class="text-white text-sm font-display font-semibold mb-3">{c.title}</h3>
+          <ul class="space-y-2 text-sm">
+            {c.links.map((l) => <li><a href={l.href} class="text-breeze-200/80 hover:text-white transition-colors">{l.name}</a></li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+    <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row gap-3 justify-between text-xs text-breeze-200/70">
+      <p>© {year} {SITE.domain}. All rights reserved.</p>
+      <p class="max-w-xl">As an Amazon Associate we earn from qualifying purchases. Product prices and availability are accurate as of the date shown and are subject to change.</p>
+    </div>
+  </div>
+</footer>

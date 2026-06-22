@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '@layouts/Base.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import FanIllustration from '@components/FanIllustration.astro';
+import { products } from '@data/products';
+import { graph, breadcrumbSchema, canonical } from '@lib/seo';
+
+const articles = (await getCollection('articles')).filter((a) => !a.data.draft);
+const brandHubs = articles.filter((a) => a.data.kind === 'brand');
+// brands that have products but maybe no hub yet
+const brandNames = [...new Set(products.map((p) => p.brand))].sort();
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Brands', url: '/brands/' }];
+const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
+const hubFor = (b: string) => brandHubs.find((h) => (h.data.brand ?? '').toLowerCase() === b.toLowerCase());
+---
+<Base title="Tower Fan Brands, Dyson, Dreo, Levoit & More" description="Browse tower fan reviews and buying guides by brand. Compare Dyson, Dreo, Levoit, Honeywell, Dimplex and more, with our pick for each range." path="/brands/" schema={schema}>
+  <section class="bg-breeze-mesh border-b border-breeze-100">
+    <div class="mx-auto max-w-6xl px-4 pt-6 pb-10">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1 class="mt-5 text-4xl sm:text-5xl">Tower fans by brand</h1>
+      <p class="mt-4 text-lg text-ink-500 max-w-2xl">From premium bladeless Dysons to brilliant-value Dreo and Levoit models, here's our verdict on every major tower fan brand in the UK.</p>
+    </div>
+  </section>
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {brandNames.map((b) => {
+        const hub = hubFor(b);
+        const count = products.filter((p) => p.brand === b).length;
+        const href = hub ? `/${hub.id}/` : undefined;
+        const Tag = href ? 'a' : 'div';
+        return (
+          <Tag href={href} class={`group relative overflow-hidden rounded-2xl border border-breeze-100 bg-white p-6 ${href ? 'card-lift' : 'opacity-90'}`}>
+            <div class="absolute -right-5 -bottom-5 opacity-[0.06] group-hover:opacity-[0.12] transition-opacity"><FanIllustration variant="standard" class="h-32 w-32" /></div>
+            <div class="relative">
+              <h2 class="text-2xl">{b}</h2>
+              <p class="mt-1 text-sm text-ink-400">{count} {count === 1 ? 'model' : 'models'} reviewed</p>
+              {href && <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-breeze-700 group-hover:text-heat-500">View {b} fans →</span>}
+            </div>
+          </Tag>
+        );
+      })}
+    </div>
+  </section>
+</Base>

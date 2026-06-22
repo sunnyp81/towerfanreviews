@@ -1,0 +1,9 @@
+# Cloudflare Pages 301 redirects — old WordPress slugs -> new structure
+/best-hot-cold/                /best-tower-fan-heaters/        301
+/tower-fan-heater-best-5-to-buy/  /best-tower-fan-heaters/     301
+/best-bladeless/              /best-bladeless-tower-fans/      301
+/dyson-purifying/             /dyson-tower-fans/               301
+/dyson-cool-am07/             /dyson-cool-am07/                200
+/dyson-am06-desk/             /dyson-tower-fans/               301
+/honeywell-hy254e-quietset/   /honeywell-hy254e-quietset/      200
+/vornado/                     /best-tower-fans/                301

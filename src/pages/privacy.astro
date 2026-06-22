@@ -1,0 +1,22 @@
+---
+import Base from '@layouts/Base.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { SITE, graph, breadcrumbSchema, canonical } from '@lib/seo';
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Privacy & disclosure', url: '/privacy/' }];
+const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
+---
+<Base title="Privacy Policy & Affiliate Disclosure" description="How Tower Fan Reviews handles your data, uses cookies, and earns through affiliate links and display advertising." path="/privacy/" schema={schema} noindex={false}>
+  <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-3xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">Privacy &amp; affiliate disclosure</h1></div></section>
+  <div class="mx-auto max-w-3xl px-4 py-12 prose-tf">
+    <h2>Affiliate disclosure</h2>
+    <p>{SITE.domain} is a participant in the Amazon EU Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.co.uk. As an Amazon Associate we earn from qualifying purchases. We may also earn commission from other retailers we link to. This comes at no extra cost to you and never influences our rankings or verdicts.</p>
+    <h2>Display advertising</h2>
+    <p>We may show display advertising on this site. Advertising partners may use cookies to serve relevant ads and measure performance. You can control cookies through your browser settings.</p>
+    <h2>What data we collect</h2>
+    <p>If you contact us or join our newsletter, we collect the details you provide (such as your name and email) solely to respond to you or send the updates you asked for. You can unsubscribe at any time using the link in any email. We do not sell your personal data.</p>
+    <h2>Analytics</h2>
+    <p>We use privacy-respecting analytics to understand which pages are useful and improve the site. This data is aggregated and not used to identify you personally.</p>
+    <h2>Contact</h2>
+    <p>Questions about this policy? <a href="/contact/">Get in touch</a>.</p>
+  </div>
+</Base>

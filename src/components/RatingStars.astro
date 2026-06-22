@@ -1,0 +1,22 @@
+---
+interface Props { rating: number; size?: 'sm' | 'md' | 'lg'; showNumber?: boolean; class?: string; }
+const { rating, size = 'md', showNumber = true, class: cls = '' } = Astro.props;
+const pct = Math.max(0, Math.min(100, (rating / 5) * 100));
+const px = size === 'lg' ? 22 : size === 'sm' ? 14 : 17;
+const star = 'M12 .8l3.1 6.9 7.5.7-5.6 5 1.6 7.4L12 23.3 5.4 26.8 7 19.4 1.4 14.4l7.5-.7z';
+---
+<span class={`inline-flex items-center gap-2 ${cls}`} aria-label={`${rating.toFixed(1)} out of 5`}>
+  <span class="relative inline-block" style={`height:${px}px`}>
+    <span class="flex" style="color:#d6e6eb">
+      {Array.from({ length: 5 }).map(() => (
+        <svg width={px} height={px} viewBox="0 0 24 27" fill="currentColor" aria-hidden="true"><path d={star} /></svg>
+      ))}
+    </span>
+    <span class="flex absolute inset-0 overflow-hidden" style={`width:${pct}%;color:var(--color-gold-500)`}>
+      {Array.from({ length: 5 }).map(() => (
+        <svg width={px} height={px} viewBox="0 0 24 27" fill="currentColor" aria-hidden="true" style="flex:0 0 auto"><path d={star} /></svg>
+      ))}
+    </span>
+  </span>
+  {showNumber && <strong class="font-display tabular-nums text-ink-900" style={size === 'lg' ? 'font-size:1.25rem' : ''}>{rating.toFixed(1)}</strong>}
+</span>

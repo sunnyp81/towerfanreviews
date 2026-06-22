@@ -1,0 +1,44 @@
+---
+import { SITE } from '@lib/seo';
+const nav = [
+  { name: 'Best Tower Fans', href: '/best-tower-fans/' },
+  { name: 'Bladeless', href: '/best-bladeless-tower-fans/' },
+  { name: 'Hot & Cold', href: '/best-tower-fan-heaters/' },
+  { name: 'Quiet', href: '/best-quiet-tower-fans/' },
+  { name: 'By Brand', href: '/brands/' },
+  { name: 'Guides', href: '/guides/' },
+];
+const path = Astro.url.pathname;
+---
+<header class="sticky top-0 z-50 border-b border-breeze-100/80 bg-white/85 backdrop-blur-md">
+  <div class="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-2.5 shrink-0" aria-label={`${SITE.name} home`}>
+      <span class="grid place-items-center w-9 h-9 rounded-xl bg-breeze-600 shadow-card" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a4 4 0 1 0-4-4"/><path d="M12 12a4 4 0 1 1 4 4"/><path d="M12 12a4 4 0 1 0 4-4"/><path d="M12 12a4 4 0 1 1-4 4"/><circle cx="12" cy="12" r="1.4" fill="#fff"/></svg>
+      </span>
+      <span class="font-display font-bold text-lg leading-none text-ink-900">Tower Fan<span class="text-breeze-600"> Reviews</span></span>
+    </a>
+
+    <nav aria-label="Primary" class="hidden md:block">
+      <ul class="flex items-center gap-1">
+        {nav.map((n) => {
+          const active = path === n.href;
+          return (
+            <li><a href={n.href} class={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${active ? 'text-breeze-700 bg-breeze-50' : 'text-ink-700 hover:text-breeze-700 hover:bg-breeze-50'}`} aria-current={active ? 'page' : undefined}>{n.name}</a></li>
+          );
+        })}
+      </ul>
+    </nav>
+
+    <details class="md:hidden relative">
+      <summary class="list-none cursor-pointer grid place-items-center w-10 h-10 rounded-lg border border-breeze-100 text-ink-700" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </summary>
+      <nav aria-label="Mobile" class="absolute right-0 mt-2 w-56 rounded-xl border border-breeze-100 bg-white shadow-lift p-2">
+        <ul class="flex flex-col">
+          {nav.map((n) => <li><a href={n.href} class="block px-3 py-2.5 rounded-lg text-sm font-medium text-ink-700 hover:bg-breeze-50 hover:text-breeze-700">{n.name}</a></li>)}
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
