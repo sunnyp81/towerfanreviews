@@ -1,7 +1,7 @@
 ---
 kind: roundup
 title: "Best Cheap Tower Fans UK 2026: Best Value Under £60"
-description: "The best cheap tower fans available in the UK in 2026, affordable models under £60 that still deliver real airflow, oscillation and useful features without cutting corners on safety."
+description: "The best cheap tower fans in the UK for 2026. Affordable models under £60 that still deliver real airflow, oscillation and handy features without cutting corners."
 h1: "The Best Cheap Tower Fans in the UK for 2026"
 heroEyebrow: "Real cooling, sensible money"
 category: budget
@@ -34,6 +34,8 @@ relatedSlugs:
   - best-tower-fans-with-remote
 ---
 
+The best cheap tower fan in the UK in 2026 is the [Vortex Air Pro](/vortex-air-pro/): it delivers full-room oscillating airflow, a usable remote and reliable controls at a near-budget price that undercuts most mid-range rivals. If you need something even cheaper and are happy with simpler controls, the [Vonhaus tower fan](/vonhaus/) and [Mylek tower fan](/mylek/) are the most dependable options under £50.
+
 You do not need to spend a lot of money to keep a room comfortable. The market for budget tower fans in the UK has improved significantly in the last few years, and several models now punch well above their price point on airflow, features and reliability. The picks above are the best cheap tower fans we have found after cutting through the noise of near-identical white-label products.
 
 ## How we chose these picks
@@ -56,11 +58,11 @@ We excluded models that generated strong owner complaints about oscillation moto
 
 ## Where to find genuine value: the sensible budget brackets
 
-**Under £40:** Oscillation and timer are often absent or limited. Useful for desk or personal use, less useful for room cooling. Brands like Pifco and Igenix are reliable at this price point.
+**Under £40:** Oscillation and timer are often absent or limited. Useful for desk or personal use, less useful for room cooling. The [Pifco tower fan](/pifco/) and [Igenix DF0030](/igenix-df0030-oscillating-tower-fan/) are reliable at this price point, with the Igenix being a particularly consistent performer for basic room cooling.
 
-**£40-55:** The strongest value bracket. Most major budget brands offer their best models here: full oscillation, 3-6 speeds, a timer and often a basic remote. This is where the Mylek, Ansio and Vonhaus models compete strongly.
+**£40-55:** The strongest value bracket. Most major budget brands offer their best models here: full oscillation, 3-6 speeds, a timer and often a basic remote. This is where the [Mylek](/mylek/), [Ansio](/ansio/) and [Vonhaus tower fan](/vonhaus/) models compete strongly. The [Netta tower fan](/netta/) is also worth considering at this price if you want a slightly taller footprint.
 
-**£55-70:** You start to pick up wider oscillation angles, more speed settings and better build quality. The Vortex Air Pro sits in this range and offers genuinely mid-range performance at a near-budget price.
+**£55-70:** You start to pick up wider oscillation angles, more speed settings and better build quality. The [Vortex Air Pro](/vortex-air-pro/) sits in this range and offers genuinely mid-range performance at a near-budget price.
 
 Above £70, you are entering mid-range territory where brands like Dreo and Levoit compete, and the performance difference becomes noticeable. If your budget stretches to £80-100, visiting our full [best tower fans](/best-tower-fans/) roundup is worthwhile before committing.
 

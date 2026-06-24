@@ -11,7 +11,7 @@ import AdSlot from '@components/AdSlot.astro';
 import EmailCapture from '@components/EmailCapture.astro';
 import RatingStars from '@components/RatingStars.astro';
 import { getProduct, getProducts } from '@data/products';
-import { SITE, canonical, graph, breadcrumbSchema, faqSchema, reviewSchema, itemListSchema } from '@lib/seo';
+import { SITE, EDITOR, canonical, graph, breadcrumbSchema, faqSchema, reviewSchema, itemListSchema, articleSchema, personSchema } from '@lib/seo';
 
 export async function getStaticPaths() {
   const all = (await getCollection('articles')).filter((a) => !a.data.draft);
@@ -49,8 +49,15 @@ const crumbs = [
 const toc = headings.filter((h) => h.depth === 2);
 
 // Schema graph
-const schemaNodes: object[] = [breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) })))];
-if (product) schemaNodes.push(reviewSchema({ name: product.name, brand: product.brand, rating: product.rating, description: data.description, url: canonical(path), image: product.image }));
+const pub = data.publishDate;
+const mod = data.updatedDate ?? data.publishDate;
+const schemaNodes: object[] = [personSchema(), breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) })))];
+if (product) {
+  schemaNodes.push(reviewSchema({ name: product.name, brand: product.brand, rating: product.rating, description: data.description, url: canonical(path), image: product.image, datePublished: pub, dateModified: mod }));
+} else {
+  // guides + roundups get Article schema for freshness + authorship
+  schemaNodes.push(articleSchema({ headline: h1, description: data.description, url: canonical(path), datePublished: pub, dateModified: mod }));
+}
 if (items.length) schemaNodes.push(itemListSchema(items.map((p) => ({ name: p.name, url: p.hasReview ? canonical(`/${p.slug}/`) : canonical(path) }))));
 const fq = faqSchema(data.faqs);
 if (fq) schemaNodes.push(fq);
@@ -70,6 +77,7 @@ const isList = data.kind === 'roundup' || data.kind === 'brand';
         <h1 class="mt-2 text-4xl sm:text-5xl leading-[1.05]">{h1}</h1>
         <p class="mt-4 text-lg text-ink-500 leading-relaxed">{data.description}</p>
         <div class="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-ink-400">
+          <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"/></svg>By <a href={EDITOR.url} rel="author" class="font-medium text-ink-700 hover:text-breeze-700">{EDITOR.name}</a></span>
           <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>Updated {updated}</span>
           {product && <span class="inline-flex items-center gap-1.5"><RatingStars rating={product.rating} size="sm" /></span>}
           <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Independently tested</span>

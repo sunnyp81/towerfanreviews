@@ -32,6 +32,8 @@ relatedSlugs:
   - best-cheap-tower-fans
 ---
 
+The best tower fan with a remote control in the UK in 2026 is the [Dreo Pilot Max](/dreo-pilot-max/): its remote covers speed, oscillation, timer and power, works reliably across a room and has large enough buttons to use in the dark without fumbling. For buyers who want app control alongside a physical remote, the [Dyson Cool AM07](/dyson-cool-am07/) adds Wi-Fi scheduling and a magnetic remote that clips to the top of the fan so it is never lost.
+
 A remote control might seem like a minor convenience, but once you have used a tower fan from your sofa or adjusted a bedroom fan at 3am without getting up, going back to a panel-only model feels like a step backwards. Every fan in this roundup comes with a remote that actually works well, not just a flimsy plastic afterthought that requires you to point it at exactly the right angle from the right distance.
 
 ## How we chose these picks
@@ -56,8 +58,8 @@ We also cross-referenced with the fan's overall performance, because a good remo
 
 At the budget end, remotes are often small, light and feel plasticky. Buttons may require a firm press, and the range can be inconsistent, particularly in rooms with furniture between you and the fan. This is liveable but noticeable.
 
-Mid-range models from Dreo, Levoit and Meaco include substantially better remotes: larger buttons, more reliable IR transmission and magnetic or clip storage on the unit. The Dreo Pilot Max remote, in particular, is well regarded for being intuitive to use without looking at it.
+Mid-range models from Dreo, Levoit and Meaco include substantially better remotes: larger buttons, more reliable IR transmission and magnetic or clip storage on the unit. The [Dreo Pilot Max](/dreo-pilot-max/) remote, in particular, is well regarded for being intuitive to use without looking at it. The [Meaco 1056](/meacofan-1056/) and [Levoit tower fan](/levoit-tower-fan/) both include remotes that cover all the main functions and are a meaningful step up from the basic plastic fobs that come with budget models.
 
-Dyson's magnetic remote storage, which clips to the top of the fan, is a genuine quality-of-life feature that seems small until you have experienced it. App integration on the Dyson and higher-end Dreo models opens up scheduling and smart home control that IR-only remotes cannot match.
+Dyson's magnetic remote storage, which clips to the top of the fan, is a genuine quality-of-life feature that seems small until you have experienced it. App integration on the [Dyson Cool AM07](/dyson-cool-am07/) and higher-end Dreo models opens up scheduling and smart home control that IR-only remotes cannot match. If you want a remote on a tighter budget, the [Russell Hobbs tower fan](/russell-hobbs-tower-fan/) and [Honeywell HY254E QuietSet](/honeywell-hy254e-quietset/) both include one at a more accessible price point.
 
 For buyers who primarily want quiet overnight running with remote convenience, our [best quiet tower fans](/best-quiet-tower-fans/) list is a useful companion. For the full picture on choosing a tower fan for any room, visit our [tower fan buying guide](/tower-fan-buying-guide/).

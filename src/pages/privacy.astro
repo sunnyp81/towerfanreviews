@@ -5,7 +5,7 @@ import { SITE, graph, breadcrumbSchema, canonical } from '@lib/seo';
 const crumbs = [{ name: 'Home', url: '/' }, { name: 'Privacy & disclosure', url: '/privacy/' }];
 const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
 ---
-<Base title="Privacy Policy & Affiliate Disclosure" description="How Tower Fan Reviews handles your data, uses cookies, and earns through affiliate links and display advertising." path="/privacy/" schema={schema} noindex={false}>
+<Base title="Privacy Policy & Affiliate Disclosure" description="How Tower Fan Reviews handles your data and cookies, plus our affiliate disclosure: we earn commission from Amazon and other retailers at no extra cost to you." path="/privacy/" schema={schema} noindex={false}>
   <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-3xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">Privacy &amp; affiliate disclosure</h1></div></section>
   <div class="mx-auto max-w-3xl px-4 py-12 prose-tf">
     <h2>Affiliate disclosure</h2>

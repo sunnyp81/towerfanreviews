@@ -2,9 +2,9 @@
 import Base from '@layouts/Base.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
 import EmailCapture from '@components/EmailCapture.astro';
-import { SITE, graph, breadcrumbSchema, orgSchema, canonical } from '@lib/seo';
+import { SITE, EDITOR, graph, breadcrumbSchema, orgSchema, personSchema, canonical } from '@lib/seo';
 const crumbs = [{ name: 'Home', url: '/' }, { name: 'About', url: '/about/' }];
-const schema = graph(orgSchema(), breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
+const schema = graph(orgSchema(), personSchema(), breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
 ---
 <Base title="About Tower Fan Reviews" description="Who we are and why you can trust Tower Fan Reviews, an independent UK site that buys and tests tower fans to give honest, useful buying advice." path="/about/" schema={schema}>
   <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-3xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">About Tower Fan Reviews</h1><p class="mt-4 text-lg text-ink-500">Honest, independent tower fan advice for UK homes.</p></div></section>
@@ -13,6 +13,8 @@ const schema = graph(orgSchema(), breadcrumbSchema(crumbs.map((c) => ({ name: c.
     <p>We fix that by doing the boring work for you. We buy tower fans with our own money, live with them through real British heatwaves, and judge them on the things that genuinely matter, airflow, noise, running cost, features and build quality.</p>
     <h2>We're independent</h2>
     <p>We don't take payment for reviews or rankings. We're funded through affiliate links: when you buy through a link on our site, we may earn a small commission at no extra cost to you. That commission never changes our verdict, plenty of expensive fans sit below cheaper ones in our rankings because they earned their place.</p>
+    <h2>Who runs Tower Fan Reviews</h2>
+    <p>Tower Fan Reviews is run and edited by <a href={EDITOR.url} rel="author">{EDITOR.name}</a>, who buys, tests and writes up every fan we cover. Sunny has spent years reviewing consumer products and building independent review sites, and personally signs off the rankings on this site. You can see more of his work at <a href={EDITOR.url} rel="noopener" target="_blank">sunnypatel.co.uk</a>.</p>
     <h2>How we keep advice current</h2>
     <p>Tower fan ranges change every year and prices move constantly, especially in summer. We re-check our top picks and prices regularly and update the "last updated" date on every page so you always know how fresh our advice is.</p>
     <h2>Get in touch</h2>

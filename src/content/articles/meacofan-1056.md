@@ -1,6 +1,6 @@
 ---
 kind: review
-title: "MeacoFan 1056 Review 2026: The Quietest Tower Fan Under £150?"
+title: "MeacoFan 1056 Review: Quietest Tower Fan? (2026)"
 description: "MeacoFan 1056 Air Circulator review: noise, airflow, running cost and value assessed. The quietest tower fan for bedrooms and light sleepers in 2026."
 h1: "MeacoFan 1056 Air Circulator Review"
 heroEyebrow: "Quiet air circulator review"
@@ -23,7 +23,7 @@ relatedSlugs:
   - dreo-pilot-max
 ---
 
-MeacoFan is a British brand that most people have not heard of, built around one obsession: quiet operation. The 1056 Air Circulator is the tower fan that earns the brand its reputation. At around £100 it costs more than most bladed budget fans but significantly less than a Dyson, and for light sleepers and home-office workers it represents arguably the best pure value for quiet cooling available in the UK.
+The MeacoFan 1056 is worth buying if quiet operation is your top priority and you want to avoid spending Dyson money. It suits light sleepers, home-office workers who need to take calls, and anyone who has previously found tower fans too noisy at night. The key strength is a genuinely hushed motor at mid-range speeds; the caveat is a narrower oscillation arc and no app or smart-home connectivity.
 
 ## Design and build quality
 
@@ -43,15 +43,15 @@ Twelve speed settings give excellent granularity. The lowest three settings are 
 
 ## Noise
 
-This is the reason to choose the MeacoFan 1056 over comparable priced alternatives. At speeds four through eight, which covers most real-world evening use, the motor produces a soft, even white-noise hum that is genuinely soothing rather than intrusive. The motor engineers at Meaco clearly spent time on vibration damping and bearing quality, because the sound character is qualitatively different from most fans at this price: smooth and low rather than whiny or mechanical.
+This is the reason to choose the MeacoFan 1056. At speeds four through eight, which covers most real-world evening and overnight use, the motor produces a soft, even white-noise hum that is genuinely soothing rather than intrusive. The sound character is qualitatively different from most fans at this price: smooth and consistently low-toned, without the mechanical whine or rhythmic cycling that makes cheaper fans hard to ignore in a quiet bedroom. Meaco has clearly invested in vibration damping and bearing quality.
 
-For light sleepers who have previously given up on tower fans because of nighttime noise, the 1056 is the model worth trying before concluding that fans simply cannot be quiet enough. It is the closest thing to Dyson-quiet without the Dyson price.
+For light sleepers who have previously given up on tower fans because of nighttime noise, the 1056 is the model worth trying before concluding that fans simply cannot be quiet enough. It is the closest thing to Dyson-quiet without the Dyson price tag.
 
 ## Running costs
 
-Twelve speeds and a circulator design mean the 1056 can be run at lower effective speeds than a directional fan to achieve similar comfort, because it moves the air more efficiently around the room. This tends to reduce actual electricity consumption in practice compared with a max-speed session on a cheaper fan. Running costs at typical settings are a few pence per evening, in line with any tower fan.
+The MeacoFan 1056 draws around 38W at typical mid-range speeds. At roughly 24-25p per kWh under the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap), that works out to about 0.9p an hour, so a full eight-hour night costs around 8p. The circulator design also means you can achieve comfortable room-wide air movement at lower speed settings than a purely directional fan, which in practice keeps actual consumption down further.
 
-The 1-9 hour timer means the fan can be programmed to switch off without you having to remember mid-night.
+The 1-9 hour timer lets you programme the fan to switch off mid-night without having to remember.
 
 ## Features
 
@@ -66,3 +66,5 @@ For quiet-first buyers, yes, emphatically. At £100 it costs more than a budget 
 If noise is not your primary concern and you want app control, the [Dreo Pilot Max](/dreo-pilot-max/) at similar money offers more smart features. If you want the very best quiet performance and cost is secondary, the [Dyson AM07](/dyson-am07/) edges ahead but costs three times as much.
 
 For all our quiet fan recommendations, see [best quiet tower fans](/best-quiet-tower-fans/). For the full market view, start at [best tower fans](/best-tower-fans/).
+
+Meaco publishes stock information and warranty details on their own site at [meaco.com](https://www.meaco.com), which is worth checking if the 1056 is out of stock at larger retailers during peak summer demand.

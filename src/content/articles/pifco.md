@@ -19,10 +19,12 @@ faqs:
 relatedSlugs:
   - best-cheap-tower-fans
   - best-mini-tower-fans
-  - best-tower-fans
+  - tower-fan-buying-guide
 ---
 
-The Pifco tower fan costs around 30 pounds and makes no attempt to hide what it is: one of the cheapest tower fans available in the UK. At that price there are genuine limitations, and the honest thing is to name them upfront. But there is also a real use case here, and for the right buyer the Pifco is a sensible purchase rather than a false economy.
+The Pifco tower fan is worth buying only for desk use or a very small room where compact size matters more than airflow reach. It suits students, office workers or anyone who needs a personal cooling fan at close range for around 30 pounds. The honest caveat is that it will not cool a bedroom from across the room, and the feature set is as minimal as it gets.
+
+The Pifco costs around 30 pounds and makes no attempt to hide what it is: one of the cheapest tower fans available in the UK. At that price there are genuine limitations, and the honest thing is to name them upfront. But there is also a real use case here, and for the right buyer the Pifco is a sensible purchase rather than a false economy.
 
 ## Design and build quality
 
@@ -42,13 +44,13 @@ The two speeds give limited choice: a gentle low and a somewhat stronger high. M
 
 ## Noise
 
-On both settings the Pifco is on the quieter side for a budget bladed fan. The motor is small and the airflow volume is low, both of which contribute to a lower overall noise level. On the top setting there is a steady hum that is audible in a quiet room but not intrusive.
+On both settings the Pifco is on the quieter side for a budget bladed fan. The motor is small and the airflow volume is low, and those two factors together keep overall noise levels down. There is a steady hum on the top setting that is audible in a quiet room, but because the motor is physically smaller than a full-size fan motor, it tends to sit at a lower pitch than budget tower fans that push harder.
 
-For desk or office use during the day it is quiet enough that it would not distract from a video call or disturb concentration, which is a point in its favour for the use case it suits best.
+For desk or office use during the day it is quiet enough that it would not distract from a video call or disturb concentration, which is a genuine point in its favour for the use case it suits best.
 
 ## Running costs
 
-At well under 30 watts on any setting, the Pifco is cheap to run. The small motor and limited airflow mean it uses less electricity than full-size fans. Running it for a full working day at a desk costs only a few pence. Energy cost is not a consideration at this price and power level.
+At about 25W the Pifco costs roughly 0.6p an hour at the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) of around 24-25p per kWh. Running it for a full eight-hour working day costs around 5p. Energy cost is not a meaningful consideration at this wattage.
 
 ## Features
 
@@ -58,4 +60,4 @@ Two speeds, 45-degree oscillation, and a power button. That is the full list. No
 
 For desk cooling or a very small space, yes. If you need a compact fan to sit on your desk, keep you comfortable at close range, and not take up much space, the Pifco delivers that for 30 pounds. It is the right tool for that specific job.
 
-For anything requiring more reach, room coverage, or convenience features, look at the other options in our [best cheap tower fans](/best-cheap-tower-fans/) guide. For compact fans that offer a better feature balance, our [best mini tower fans](/best-mini-tower-fans/) roundup is the place to look. The full range is covered in our [best tower fans](/best-tower-fans/) guide.
+For anything requiring more reach, room coverage, or convenience features, look at the other options in our [best cheap tower fans](/best-cheap-tower-fans/) guide. For compact fans that offer a better feature balance, our [best mini tower fans](/best-mini-tower-fans/) roundup is the place to look, and our [tower fan buying guide](/tower-fan-buying-guide/) will help you decide whether a mini tower is the right format for your space.

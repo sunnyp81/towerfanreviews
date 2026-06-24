@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-The Dyson AM07 is the one fans people point to when they want permission to spend serious money on a tower fan. With a bladeless loop, a magnetic remote and a price of around £300, it is clearly not targeting the budget shopper. The question worth asking is what you actually get for that premium.
+The Dyson AM07 is worth it for buyers who want genuinely quiet, blade-free cooling in a living space where aesthetics matter. It suits design-led households, homes with children, and light sleepers who need a fan they can leave on overnight without disturbance. The key strength is its refined, smooth airflow; the caveat is a £300 price that buys little extra raw air movement over bladed rivals at a third of the cost.
 
 ## Design and build quality
 
@@ -39,13 +39,13 @@ Across a medium-sized living room the oscillation covers the space well, and on 
 
 ## Noise
 
-This is the AM07's strongest card. On settings one through five or six, it is remarkably quiet: a soft broadband rush rather than a motor whine or a mechanical rattle. It is one of the very few tower fans at any price we would confidently recommend to a light sleeper. The MeacoFan 1056 gives it a close contest at half the price, but for sheer refinement the AM07 is hard to beat.
+This is the AM07's strongest card. On settings one through five or six, it produces a soft, broadband rush with no mechanical rattle and no blade-chop pulse. The sound character is qualitatively different from most tower fans: smooth and low rather than whiny or cyclical. It is one of very few tower fans at any price we would confidently recommend to a light sleeper. The [MeacoFan 1056](/meacofan-1056/) runs it close for bedroom quiet at half the price, but for sheer refinement the AM07 is hard to beat.
 
-Push it above setting eight and it does get loud, but that is true of virtually every fan. In practice, most users report rarely going above six, which keeps the AM07 in its quiet zone for the majority of its use.
+Push it above setting eight and it does become clearly audible, but that is true of virtually every fan. Most users report rarely going above setting six, which keeps the AM07 in its quiet zone for the majority of its use.
 
 ## Running costs
 
-Fans are among the cheapest appliances to run, and the AM07 is no exception. Even towards the top of its range it draws around 26 watts. At current UK electricity rates that is roughly 1-2 pence per hour. Running it overnight costs less than a first-class stamp. If energy bills have made you hesitant about using a fan, do not let them.
+Fans are among the cheapest appliances to run, and the AM07 is no exception. It draws around 26W at lower settings and up to about 40W near the top of its range. At 26W, that is roughly 0.6p an hour at the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) of roughly 24-25p per kWh; even running at full draw all night costs under 10p. If energy bills have made you hesitant about using a fan, do not let them.
 
 ## Features
 
@@ -59,4 +59,6 @@ Measured purely on airflow per pound, no. A Dreo Pilot Max at £90 moves competi
 
 But the AM07 is not really competing on those terms. It is for buyers who want the quietest option, the safest option for a home with young children, or simply the fan they would not be embarrassed to leave out in a nice room. On those counts, nothing else comes close at any price.
 
-If you also want heating capability, the [Dyson Hot+Cool](/dyson-hot-cool/) adds a thermostat and heater element and is worth the extra outlay. For the best options across all budgets, see our [best tower fans](/best-tower-fans/) roundup.
+If you also want heating capability, the [Dyson Hot+Cool AM09](/dyson-hot-cool/) adds a thermostat and heater element and is worth the extra outlay. For the best options across all budgets, see our [best tower fans](/best-tower-fans/) roundup, or browse the full [Dyson tower fan range](/dyson-tower-fans/).
+
+For peace of mind on electrical safety, [Electrical Safety First](https://www.electricalsafetyfirst.org.uk) has guidance on using fan heaters and cooling appliances safely at home.

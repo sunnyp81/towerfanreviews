@@ -15,12 +15,14 @@ faqs:
   - q: "Is the MYLEK tower fan easy to assemble?"
     a: "Yes. The fan arrives in two main sections that click together without tools. Most buyers report being up and running in under five minutes. The controls on both the unit and the remote are clearly labelled and intuitive from the first use."
   - q: "How much does it cost to run the MYLEK tower fan overnight?"
-    a: "Very little. At a typical setting it draws around 40-50 watts, which at 2026 UK energy rates amounts to around 1-2 pence per hour. Running it through an eight-hour night costs a matter of pence."
+    a: "Very little. At around 45 watts it costs roughly 1.1p per hour at the current Ofgem price cap. Running it through an eight-hour night costs under 10p."
 relatedSlugs:
   - best-cheap-tower-fans
   - best-tower-fans-with-remote
-  - best-tower-fans
+  - tower-fan-buying-guide
 ---
+
+The MYLEK tower fan is worth buying if you want remote control convenience at the budget end of the market and do not mind a noisier top setting. It suits bedroom users who want to adjust speed or switch off without getting out of bed, offering solid airflow and a practical timer for around 40 pounds. The honest caveat is that the top speed is too loud for most people to sleep through.
 
 Remote control on a tower fan used to cost extra. The MYLEK aims to change that, bundling in a remote at around the 40 pound mark and packaging it with three speeds and oscillation. It is a straightforward pitch for anyone who wants to adjust their fan from across the room without paying a mid-range price.
 
@@ -38,13 +40,13 @@ It is not as refined or as powerful as fans in the 70-100 pound bracket, but for
 
 ## Noise
 
-The honest assessment here is that the top setting is louder than you would want for sleeping. There is a definite motor hum and some air movement noise that becomes intrusive in a quiet room at night. The lower two speeds are much more manageable: a background white-noise level that most people find easy to tune out.
+The honest assessment here is that the top setting is louder than you would want for sleeping. There is a definite motor hum and some air movement noise that becomes intrusive in a quiet room at night. Budget bladed fans at this price all make compromises on noise at full power, and the MYLEK is no exception: it falls broadly in line with the category rather than standing out in either direction.
 
-The timer helps here. You can set the fan to run on medium for a couple of hours as you fall asleep, then have it switch off automatically. That is a practical workaround for the top-speed noise.
+The lower two speeds are much more manageable: a background white-noise level that most people find easy to tune out. The timer helps here. You can set the fan to run on medium for a couple of hours as you fall asleep, then have it switch off automatically. That is a practical workaround for the top-speed noise.
 
 ## Running costs
 
-At typical settings the MYLEK draws around 40-50 watts, putting it at the affordable end of the tower fan category. Running it overnight at a middle speed costs roughly a penny or two per hour at current UK electricity prices. For a summer fan that runs several hours a day, the annual energy cost is negligible.
+At about 45W the MYLEK costs roughly 1.1p an hour at the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) of around 24-25p per kWh. Running it overnight at a middle speed costs around 8-9p for eight hours. For a summer fan that runs several hours a day, the annual energy cost remains negligible.
 
 ## Features
 
@@ -56,4 +58,4 @@ The notable omission is a natural breeze or sleep mode. Most mid-range fans offe
 
 Yes, for the specific buyer it targets: someone who wants remote control convenience, decent airflow and a timer, without spending 60 pounds or more. The MYLEK delivers all three reliably. The top-speed noise is a genuine compromise, but the remote and timer combination at this price is genuinely useful.
 
-If you need a remote and can stretch to a little more, the [Russell Hobbs tower fan](/russell-hobbs-tower-fan/) adds brand reliability and similar features. For the full picture on budget options, see our [best cheap tower fans](/best-cheap-tower-fans/) roundup, or our [best tower fans with remote](/best-tower-fans-with-remote/) guide for remote-specific picks.
+If you need a remote and can stretch a little further, the [Russell Hobbs tower fan](/russell-hobbs-tower-fan/) adds brand reliability and similar features for a small premium. For the full picture on budget options, see our [best cheap tower fans](/best-cheap-tower-fans/) roundup, or our [tower fan buying guide](/tower-fan-buying-guide/) if you are still deciding on the right type.

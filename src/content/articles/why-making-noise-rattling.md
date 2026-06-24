@@ -21,17 +21,19 @@ relatedSlugs:
   - tower-fan-buying-guide
   - best-tower-fans
   - how-to-clean-a-tower-fan
+  - used-on-its-side
 ---
 
-A rattling tower fan is almost always fixable. Before you bin it or call it broken, work through the five causes below in order. Most rattles are sorted in under ten minutes, no tools needed.
+A tower fan rattles for one of five reasons: dust on the impeller, a loose grille panel, debris inside the casing, an uneven surface, or a worn motor bearing. The first four are fixable in under ten minutes with no tools. Dust buildup is by far the most common cause and is solved with compressed air through the vents.
 
 ## Cause 1: dust buildup on the impeller
 
 This is the most common culprit, especially on fans that have been running for a few weeks without cleaning. The internal impeller (the spinning drum that moves air) collects dust on its vanes. When dust builds up unevenly, the drum becomes slightly off-balance and vibrates as it spins. That vibration travels through the casing and sounds like a rattle or hum.
 
 **Fix:** Vacuum the intake grille on the back or sides of the fan with a brush attachment. Then use a can of compressed air through every vent slot to blast loose dust off the impeller inside. Do this outside or over a bin. Run the fan afterwards - many rattles disappear immediately.
+[Electrical Safety First](https://www.electricalsafetyfirst.org.uk/) recommends cleaning appliances regularly to prevent overheating, and a dust-clogged fan motor is a common avoidable fault.
 
-For a full cleaning method, see our [how to clean a tower fan guide](/how-to-clean-a-tower-fan/).
+For a full cleaning method, see our [how to clean a tower fan guide](/how-to-clean-a-tower-fan/). If your fan was recently used on its side, that is another common cause of new rattling - see [can you use a tower fan on its side](/used-on-its-side/) for what to check.
 
 ## Cause 2: a loose grille panel or screw
 

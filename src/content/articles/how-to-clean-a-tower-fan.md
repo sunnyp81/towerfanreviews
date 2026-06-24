@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-A clean tower fan moves more air, runs quieter and lasts longer. The good news is that you can do a proper clean on most models without undoing a single screw. Here is how to do it properly.
+A clean tower fan moves more air, runs quieter and lasts longer. You can clean most models thoroughly without undoing a single screw, using only a vacuum and a can of compressed air. A clean every six to eight weeks during regular use prevents the dust buildup that causes rattling, reduced airflow and motor strain.
 
 ## What you will need
 
@@ -37,7 +37,7 @@ You do not need a screwdriver for this method. If your fan has a removable back 
 
 ## Step 1: switch off and unplug
 
-Always unplug the fan before cleaning. This is not optional. Even on a sealed unit, compressed air can temporarily spin the impeller and generate a small current in the motor. Unplug first, every time.
+Always unplug the fan before cleaning. This is not optional. Even on a sealed unit, compressed air can temporarily spin the impeller and generate a small current in the motor. Unplug first, every time. [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/) recommends unplugging all appliances before cleaning them, even sealed units.
 
 Move the fan outside or to a hard floor near an open window. The cleaning process releases a fair amount of dust.
 

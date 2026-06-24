@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-The Dreo Cruiser Pro sits at the sensible end of the market: enough fan for most everyday situations, at a price that does not require much deliberation. At around £70 with a remote included, it is the kind of purchase you make when you need reliable cooling without fuss or frills.
+The Dreo Cruiser Pro is worth buying if you want a reliable remote-controlled tower fan for a standard room at a fair price, with no interest in app connectivity or smart-home extras. It suits straightforward everyday use in bedrooms or home offices. The key strength is solid airflow and remote control at £70; the caveat is that it runs noticeably louder than the Pilot Max at comparable speeds.
 
 ## Design and build quality
 
@@ -39,13 +39,11 @@ In a living room larger than around 18-20 square metres, the Cruiser Pro starts 
 
 ## Noise
 
-The Cruiser Pro is reasonably quiet on its lower three or four speeds, but it is noticeably louder than the Pilot Max at comparable airflow levels. This is the main trade-off versus spending a little more: the motor note is present and clearly audible rather than blending into background ambient sound. Most people in a living room watching television will not find it intrusive. Light sleepers sharing a bedroom with it on speeds five or above may.
-
-For noise-sensitive use, looking at the MeacoFan 1056 or Levoit at similar or slightly higher prices makes more sense.
+The Cruiser Pro is reasonably settled on its lower three or four speeds, producing a steady motor note that sits acceptably in a living room. Above speed five the sound becomes clearly present rather than blending into ambient background noise: it has a slightly rougher motor character than the Pilot Max, which is audible side by side. Most people watching television will not find it intrusive, but light sleepers sharing a bedroom with it running above speed four may. For noise-sensitive overnight use, the [MeacoFan 1056](/meacofan-1056/) at a similar price is the better option.
 
 ## Running costs
 
-Standard tower fan economics apply: the Cruiser Pro draws somewhere in the region of 40-55 watts at typical speeds. At UK energy rates, running it for a full evening costs a few pence. The sleep timer means you can set it to step down and switch off automatically, which avoids unnecessary overnight running if you forget to turn it off.
+The Cruiser Pro draws around 45W at typical mid-range speeds. At roughly 24-25p per kWh under the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap), that works out to about 1.1p an hour, and a full eight-hour night costs roughly 9p. The sleep timer means you can set it to step down and switch off automatically, which avoids unnecessary overnight running if you fall asleep first.
 
 ## Features
 
@@ -57,4 +55,6 @@ For some buyers that simplicity is a positive. There is nothing to set up, nothi
 
 For buyers who need a reliable remote-controlled tower fan for a normal-sized room and have no interest in app connectivity, the Cruiser Pro does the job well at a fair price. It is not the quietest, not the most feature-rich, and not the most powerful in its class, but it is a dependable everyday fan that will see you through a UK summer without complaint.
 
-If noise or coverage matters, stretch to the [Dreo Pilot Max](/dreo-pilot-max/) for £20 more. For cheaper still, the [best cheap tower fans](/best-cheap-tower-fans/) guide covers budget options from other brands. For a full market view, see [best tower fans](/best-tower-fans/).
+If noise or coverage matters, stretch to the [Dreo Pilot Max](/dreo-pilot-max/) for £20 more. For cheaper still, the [best cheap tower fans](/best-cheap-tower-fans/) guide covers budget options from other brands. For a full view of the Dreo range, visit the [Dreo tower fans](/dreo-tower-fans/) hub. For the full market picture, see [best tower fans](/best-tower-fans/).
+
+Dreo's product listing is available directly at [dreame.co.uk](https://www.dreame.co.uk) for current pricing and stock confirmation before buying.

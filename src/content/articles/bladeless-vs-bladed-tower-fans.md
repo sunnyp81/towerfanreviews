@@ -23,7 +23,7 @@ relatedSlugs:
   - best-bladeless-tower-fans
 ---
 
-Bladeless and bladed tower fans both move air across a room. They do it differently, and that difference matters more to some buyers than others. Here is an honest comparison without the marketing spin.
+Bladeless tower fans are safer around children, easier to clean and generally quieter than bladed equivalents, but cost significantly more for the same cooling effect. A bladeless fan does not lower room temperature any more effectively than a bladed one; the difference is in safety, design and noise. This guide compares both types on every factor that matters for a UK home.
 
 ## How each type works
 
@@ -88,3 +88,5 @@ Choose a bladeless fan if: you have young children or pets, cleaning ease matter
 Choose a bladed fan if: budget is a constraint, you want maximum airflow, or you are buying for a utility space where aesthetics do not matter.
 
 For specific picks in each category, see [best bladeless tower fans](/best-bladeless-tower-fans/) or browse all recommendations in [best tower fans](/best-tower-fans/). The [tower fan buying guide](/tower-fan-buying-guide/) covers all the other features worth comparing before you buy.
+
+If you are weighing up either type against a pedestal fan, the [tower fan vs pedestal fan](/tower-fan-vs-pedestal-fan/) guide covers that comparison. For specific bladeless picks, see [best bladeless tower fans](/best-bladeless-tower-fans/), or for bladed value options, the [best cheap tower fans](/best-cheap-tower-fans/) page is a good starting point.

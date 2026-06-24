@@ -45,6 +45,8 @@ Above around 35 degrees Celsius, the evaporative cooling effect weakens signific
 
 High humidity makes the problem worse. When the air is already saturated with moisture, sweat cannot evaporate efficiently - which is why a humid 28-degree day feels worse than a dry 32-degree one.
 
+The NHS advises keeping rooms cool during heatwaves by closing windows and blinds during the day and opening them at night when outside temperatures drop - a strategy that works alongside a tower fan rather than instead of it. Full NHS heatwave guidance is at [nhs.uk](https://www.nhs.uk/live-well/seasonal-health/heatwave-how-to-cope-in-hot-weather/).
+
 In extreme UK heatwaves (the kind that push temperatures above 33-35C for several days), a fan alone may not be enough for comfortable sleep. These conditions are uncommon in most of the UK but are worth planning for.
 
 ## How to get more cooling from a tower fan
@@ -59,11 +61,17 @@ In extreme UK heatwaves (the kind that push temperatures above 33-35C for severa
 
 **Use a damp sheet or towel.** Sleeping under a lightly damp sheet and letting the fan blow over it combines evaporative cooling with the moving air effect. It sounds uncomfortable but works well when temperatures are above 28 degrees.
 
+## Tower fan vs air conditioning
+
+An air conditioner actually lowers the room temperature using a refrigerant cycle. It is more effective in extreme heat (above 35 degrees Celsius) but costs 15-20 times more to run and requires installation or bulky portable units. A portable air conditioner typically draws 700W-1,200W; a tower fan draws 30-60W.
+
+For typical UK summer conditions (20-30 degrees), a tower fan is usually sufficient and far cheaper to run. If you experience temperatures above 35 degrees regularly or have a medical condition that makes heat dangerous, air conditioning may be necessary. For most UK households, the running cost difference makes a tower fan the practical choice - see our [tower fan running cost guide](/tower-fan-running-cost/) for the exact maths.
+
 ## Choosing the right fan for cooling
 
 For personal cooling (a bedroom, a desk), almost any tower fan will do the job. For a larger room or for general household comfort, look for models with wide oscillation (90 degrees or more) and a good range of low speeds. Quiet operation on low settings matters more than peak airflow.
 
-See [best quiet tower fans](/best-quiet-tower-fans/) if noise is a concern for sleeping, or [best tower fans](/best-tower-fans/) for a full rundown of tested picks. If you are buying specifically for budget and running costs, the [best cheap tower fans](/best-cheap-tower-fans/) roundup covers the most efficient options.
+See [best quiet tower fans](/best-quiet-tower-fans/) if noise is a concern for sleeping, or [best tower fans](/best-tower-fans/) for a full rundown of tested picks. If you are buying specifically for budget and running costs, the [best cheap tower fans](/best-cheap-tower-fans/) roundup covers the most efficient options. For a quick comparison between a tower fan and a standing pedestal fan, see [tower fan vs pedestal fan](/tower-fan-vs-pedestal-fan/).
 
 ## The honest answer
 

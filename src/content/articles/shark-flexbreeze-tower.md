@@ -1,6 +1,6 @@
 ---
 kind: review
-title: "Shark FlexBreeze Tower Fan Review 2026: Cordless Tower Fan UK"
+title: "Shark FlexBreeze Tower Fan Review: Cordless (2026)"
 description: "Shark FlexBreeze tower fan review: cordless battery mode, airflow, noise and value tested. The only tower fan that truly works without a plug socket in 2026."
 h1: "Shark FlexBreeze Tower Fan Review"
 heroEyebrow: "Cordless tower fan review"
@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-The Shark FlexBreeze towers fills a gap that most tower fan buyers do not realise exists until they need it. Almost every tower fan requires a mains socket within cable distance. The FlexBreeze does not. At around £150 it is the most portable serious tower fan available in the UK, and for a specific set of use cases it is the obvious answer.
+The Shark FlexBreeze Tower Fan is worth buying if you have a genuine cordless use case: a patio, conservatory, garage or room without a convenient socket. It suits anyone who moves their fan between locations, and its key strength is full tower-fan airflow without needing a plug. The caveat is that battery life is limited to a couple of hours at higher speeds, and at £150 it costs more than corded rivals with better smart features.
 
 ## Design and build quality
 
@@ -39,13 +39,13 @@ For a corded session at a desk or in a living room, performance is broadly compa
 
 ## Noise
 
-At low and medium speeds the FlexBreeze is acceptably quiet, with a motor note broadly similar to other bladed fans at comparable output. It does not compete with the MeacoFan 1056 or Levoit for bedroom silence, and for indoor overnight use there are quieter options at a lower price. Where noise matters less, as on a patio or in a workshop, the sound level is a non-issue.
+At low and medium speeds the FlexBreeze produces a steady motor note that is acceptably unobtrusive in a living space. It sits in a similar range to most mid-price bladed fans: present but not harsh, with no unusual rattle or whine from the battery integration. It does not approach the hushed quality of the [MeacoFan 1056](/meacofan-1056/) or Levoit for bedroom overnight use, and quieter corded options are available for less. Where noise matters less, such as on a patio or in a workshop, the sound level is a non-issue.
 
-Battery-powered operation is no louder than corded use, which is a small engineering victory that not all cordless products manage.
+Battery-powered operation is no louder than corded use, which is a small engineering achievement that not all cordless products manage.
 
 ## Running costs
 
-Corded operation is cheap, in line with any tower fan at similar wattage: a few pence per hour at typical speeds. Battery mode, by definition, does not add to your electricity bill during the cordless session, though you will need to charge the battery afterwards. Charging time from flat is a few hours via the included cable.
+Corded operation draws around 55W. At roughly 24-25p per kWh under the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap), that works out to about 1.4p an hour, so a full eight-hour evening session costs around 11p. Battery mode adds no direct electricity cost during the cordless session, though you will need to recharge the battery pack afterwards. Charging from flat takes a few hours via the included cable.
 
 If you run the FlexBreeze corded most of the time and cordless occasionally, running costs are effectively identical to a standard tower fan.
 
@@ -61,4 +61,6 @@ If you have a specific cordless use case, the FlexBreeze is the answer because t
 
 If you will always use your fan near a socket, a [Dreo Pilot Max](/dreo-pilot-max/) or [MeacoFan 1056](/meacofan-1056/) delivers more features and quieter running for less money. The cordless capability is the purchase justification, and it is a genuine one.
 
-For a full view of the range, see our [Shark tower fans](/shark-tower-fans/) hub, or browse all options in the [best tower fans](/best-tower-fans/) roundup.
+For a full view of the range, see our [Shark tower fans](/shark-tower-fans/) hub, or browse all options in the [best tower fans](/best-tower-fans/) roundup. If portability is the goal and you want to compare all cordless-capable options, the [tower fan buying guide](/tower-fan-buying-guide/) covers what to look for before you commit.
+
+Shark's UK product pages at [sharkclean.co.uk](https://www.sharkclean.co.uk) are the most reliable source for current FlexBreeze availability and battery specifications.

@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-Levoit built its UK reputation on air purifiers, and the brand's tower fan applies the same quiet-first philosophy to simple cooling. At around £70 with app control and a remote, it competes directly with the Dreo Pilot Max and is the natural choice for anyone already in the VeSync ecosystem.
+The Levoit Classic Tower Fan is worth buying if you already use Levoit or VeSync devices, or if quiet bedroom running matters more to you than maximum airflow. It suits light sleepers, home-office workers, and anyone who wants app control at around £70. The key strength is low-speed quiet; the caveat is a modest 70-degree oscillation arc and less peak airflow than the Dreo Pilot Max at a similar price.
 
 ## Design and build quality
 
@@ -39,13 +39,13 @@ For typical UK use cases, which rarely involve cooling spaces larger than 20 squ
 
 ## Noise
 
-Quiet running at low speeds is where the Levoit earns its place in this roundup. On speeds one through three it produces a soft, smooth sound that blends into room ambience rather than competing with it. The motor is not as hushed as the MeacoFan 1056 at mid-range, but it is noticeably quieter than most bladed fans at similar airflow levels. Bedroom users who run the fan at light background levels throughout the night will find it well suited to the task.
+Quiet running at low speeds is where the Levoit earns its place in this roundup. On speeds one through three it produces a soft, smooth motor note that blends into room ambience rather than competing with it. The sound is consistent and low-toned, without the higher-pitched whine that cheaper bladed fans often produce. The motor is not as hushed as the [MeacoFan 1056](/meacofan-1056/) at mid-range speeds, but it is noticeably quieter than most bladed fans at similar airflow levels. Bedroom users running it at light background levels through the night will find it well suited to the task.
 
-At speeds seven through nine it becomes clearly present in the room, which is typical for fans in this class. The sleep mode, which gradually steps the fan down after a set period, is useful for falling asleep while letting the fan quieten through the night.
+At speeds seven through nine it becomes clearly present in the room, which is typical for fans in this class. The sleep mode gradually steps the fan down over a set period, which is useful for drifting off while the fan quietens itself.
 
 ## Running costs
 
-Standard electric fan economics apply. The Levoit tower fan draws a modest amount of electricity even at higher speeds, with typical usage well under 50 watts. Running it for a full summer night costs only pence at current UK energy prices. The scheduling feature in the VeSync app allows it to run only during the hours you actually need it, which removes any residual concern about overnight energy use.
+The Levoit tower fan draws around 45W at typical mid-range speeds. At roughly 24-25p per kWh under the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap), that works out to about 1.1p an hour, so a full eight-hour night costs around 9p. The scheduling feature in the VeSync app lets it run only during the hours you actually need it, removing any residual concern about overnight energy use.
 
 ## Features
 
@@ -59,4 +59,6 @@ For existing VeSync users, yes, without much debate. Adding the tower fan to an 
 
 For buyers coming to it fresh, the comparison with the [Dreo Pilot Max](/dreo-pilot-max/) is worth making. The Dreo has wider oscillation and more speeds at a similar price, and its app is arguably more intuitive for newcomers. The Levoit edges ahead for bedroom quiet at low speeds.
 
-For the quietest options across all brands, see [best quiet tower fans](/best-quiet-tower-fans/). For a full market overview, visit [best tower fans](/best-tower-fans/).
+For the quietest options across all brands, see [best quiet tower fans](/best-quiet-tower-fans/). For a full market overview, visit [best tower fans](/best-tower-fans/). The [Levoit tower fans](/levoit-tower-fans/) hub covers the rest of the Levoit range if you want to compare models.
+
+Levoit publishes full product specs and compatibility information at [levoit.com](https://www.levoit.com), which is the best place to verify VeSync app support before purchasing.

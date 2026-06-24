@@ -23,7 +23,7 @@ relatedSlugs:
   - do-tower-fans-cool-a-room
 ---
 
-Tower fans and pedestal fans do the same job. The choice between them comes down to where you are using the fan, how much space you have and how much you care about how it looks.
+Tower fans and pedestal fans both circulate air to keep you cool, but they suit different spaces and priorities. In short: a tower fan is better if floor space is limited, noise matters or aesthetics count; a pedestal fan is better if raw airflow and adjustable height are the priority. Both types cool a person equally well in a typical UK room.
 
 ## Space and footprint
 

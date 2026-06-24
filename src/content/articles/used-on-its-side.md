@@ -41,6 +41,8 @@ None of this is immediate or dramatic. The fan may seem to work fine for a day o
 
 Most tower fan manuals include a clause about using the product only as intended. "Intended" means upright, on a flat surface. If you use it on its side and something breaks, the manufacturer can refuse a warranty claim on the grounds of misuse. Given that decent tower fans cost anywhere from £30 to £150, that is a risk worth taking seriously.
 
+[Electrical Safety First](https://www.electricalsafetyfirst.org.uk/) advises using all electrical appliances only as the manufacturer intends. Operating a fan outside its design orientation can affect insulation integrity and motor heat dissipation, both of which are safety considerations, not just mechanical ones.
+
 ## What about stability and tip-over risk?
 
 A tower fan on its side has no stable base. The cylindrical body rolls, which means vibration alone can move it. In a bedroom it might roll off a surface. The internal vibration from the off-centre impeller makes this worse over time. Models with plastic feet or rubber pads are built to stay put vertically, not horizontally.

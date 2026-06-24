@@ -12,7 +12,36 @@ export const SITE = {
   publisher: 'Tower Fan Reviews',
   logo: 'https://towerfanreviews.uk/logo.svg',
   email: 'hello@towerfanreviews.uk',
+  founded: '2026',
+  sameAs: [
+    'https://www.sunnypatel.co.uk',
+  ],
 } as const;
+
+// Real, named editor for E-E-A-T (the site owner). Never fabricate credentials.
+export const EDITOR = {
+  name: 'Sunny Patel',
+  url: 'https://www.sunnypatel.co.uk',
+  jobTitle: 'Editor',
+  bio: 'Sunny Patel runs Tower Fan Reviews, buying and testing tower fans in real UK homes to give honest, independent buying advice.',
+} as const;
+
+export function personSchema() {
+  return {
+    '@type': 'Person',
+    '@id': `${SITE.url}/#editor`,
+    name: EDITOR.name,
+    url: EDITOR.url,
+    jobTitle: EDITOR.jobTitle,
+    description: EDITOR.bio,
+    knowsAbout: ['Tower fans', 'Home cooling', 'Consumer electronics reviews'],
+    sameAs: [EDITOR.url],
+  };
+}
+
+function iso(d?: Date): string | undefined {
+  return d ? new Date(d).toISOString() : undefined;
+}
 
 export function canonical(path = '/'): string {
   const p = path.startsWith('/') ? path : `/${path}`;
@@ -27,6 +56,8 @@ export function orgSchema() {
     url: SITE.url,
     logo: { '@type': 'ImageObject', url: SITE.logo },
     description: SITE.description,
+    foundingDate: SITE.founded,
+    sameAs: [...SITE.sameAs],
   };
 }
 
@@ -77,6 +108,8 @@ export function reviewSchema(p: {
   description: string;
   url: string;
   image?: string;
+  datePublished?: Date;
+  dateModified?: Date;
 }) {
   return {
     '@type': 'Review',
@@ -92,10 +125,36 @@ export function reviewSchema(p: {
       bestRating: '5',
       worstRating: '1',
     },
-    author: { '@type': 'Organization', name: SITE.publisher },
+    author: { '@type': 'Person', name: EDITOR.name, url: EDITOR.url },
     publisher: { '@id': `${SITE.url}/#org` },
     url: p.url,
     reviewBody: p.description,
+    ...(iso(p.datePublished) ? { datePublished: iso(p.datePublished) } : {}),
+    ...(iso(p.dateModified) ? { dateModified: iso(p.dateModified) } : {}),
+  };
+}
+
+/** Article schema for guides and roundups (freshness + authorship signals). */
+export function articleSchema(p: {
+  headline: string;
+  description: string;
+  url: string;
+  datePublished?: Date;
+  dateModified?: Date;
+  image?: string;
+}) {
+  return {
+    '@type': 'Article',
+    headline: p.headline,
+    description: p.description,
+    mainEntityOfPage: p.url,
+    url: p.url,
+    author: { '@type': 'Person', name: EDITOR.name, url: EDITOR.url },
+    publisher: { '@id': `${SITE.url}/#org` },
+    inLanguage: 'en-GB',
+    ...(p.image ? { image: p.image } : {}),
+    ...(iso(p.datePublished) ? { datePublished: iso(p.datePublished) } : {}),
+    ...(iso(p.dateModified) ? { dateModified: iso(p.dateModified) } : {}),
   };
 }
 

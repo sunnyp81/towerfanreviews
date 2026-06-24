@@ -14,8 +14,17 @@ interface Props {
 }
 const { title, description, path = Astro.url.pathname, schema = null, ogImage, noindex = false } = Astro.props;
 const url = canonical(path);
-const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
-const og = ogImage ?? '/og-default.svg';
+// Keep rendered <title> <= 60 chars: append brand only if it fits, else a short suffix, else bare.
+function buildTitle(t: string): string {
+  if (t.includes(SITE.name)) return t;
+  const full = `${t} | ${SITE.name}`;
+  if (full.length <= 60) return full;
+  const short = `${t} | TFR`;
+  if (short.length <= 60) return short;
+  return t;
+}
+const fullTitle = buildTitle(title);
+const og = ogImage ?? '/og-default.png';
 ---
 <!doctype html>
 <html lang="en-GB">

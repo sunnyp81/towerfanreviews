@@ -1,0 +1,24 @@
+---
+import Base from '@layouts/Base.astro';
+const links = [
+  { name: 'Best tower fans', href: '/best-tower-fans/' },
+  { name: 'Tower fan buying guide', href: '/tower-fan-buying-guide/' },
+  { name: 'Browse by brand', href: '/brands/' },
+  { name: 'All guides', href: '/guides/' },
+];
+---
+<Base title="Page not found (404)" description="Sorry, we couldn't find that page. Browse our tower fan reviews, buying guides and best-of picks instead." path="/404/" noindex={true}>
+  <section class="bg-breeze-mesh">
+    <div class="mx-auto max-w-2xl px-4 py-24 text-center">
+      <p class="font-display font-extrabold text-7xl text-gradient">404</p>
+      <h1 class="mt-4 text-3xl sm:text-4xl">This page blew away</h1>
+      <p class="mt-4 text-lg text-ink-500">We couldn't find the page you were after. Try one of these instead:</p>
+      <ul class="mt-8 grid sm:grid-cols-2 gap-3 text-left">
+        {links.map((l) => (
+          <li><a href={l.href} class="flex items-center gap-2 rounded-xl border border-breeze-100 bg-white p-4 card-lift font-medium text-ink-900 hover:text-breeze-700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>{l.name}</a></li>
+        ))}
+      </ul>
+      <a href="/" class="btn btn-cta mt-8">Back to home</a>
+    </div>
+  </section>
+</Base>

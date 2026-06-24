@@ -29,6 +29,8 @@ relatedSlugs:
   - best-quiet-tower-fans
 ---
 
+The best bladeless tower fan in the UK in 2026 is the [Dyson Cool AM07](/dyson-cool-am07/): near-silent at low speeds, safe around children and built to last years. If the Dyson price is out of reach, the [Silvercrest bladeless tower fan](/silvercrest-bladeless-tower-fan/) delivers the same safety benefit and comparable cooling for significantly less money, making it the best-value bladeless option currently available.
+
 Bladeless tower fans have moved from novelty to mainstream. The technology has matured, more affordable alternatives to Dyson have arrived, and the genuine safety advantages for homes with young children or pets make them a sensible upgrade over a standard bladed fan. The picks above represent the best of what is available in the UK right now.
 
 ## How we chose these picks
@@ -51,7 +53,9 @@ A bladeless fan has to earn its higher price tag. Our shortlist was built around
 
 The Dyson models are expensive, and there is no point pretending otherwise. What that money buys you is exceptional build quality, near-silent operation on low settings, a well-designed app and the Dyson service network. For many people those are worth it.
 
-Budget bladeless fans from brands like Silvercrest have closed the gap considerably on cooling performance. You may notice a little more mechanical noise on higher speeds, and the materials feel less premium in the hand, but the airflow is real and the safety benefit is identical. If you are buying primarily for safety around children and can live without whisper-quiet operation, a budget bladeless fan is a smart purchase.
+Budget bladeless fans from brands like Silvercrest have closed the gap considerably on cooling performance. You may notice a little more mechanical noise on higher speeds, and the materials feel less premium in the hand, but the airflow is real and the safety benefit is identical. If you are buying primarily for safety around children and can live without whisper-quiet operation, the [Silvercrest bladeless tower fan](/silvercrest-bladeless-tower-fan/) is a smart purchase at a fraction of the Dyson price.
+
+For buyers who also want air purification, the Dyson Purifier Cool adds a HEPA and activated carbon filter to the bladeless formula, which is particularly useful for hay fever sufferers. The [Dyson AM07](/dyson-am07/) sits between these two in terms of features: bladeless cooling with Dyson's build quality but without the purifier premium.
 
 The middle ground is thin: there are not many credible bladeless options between roughly £80 and £250. That gap means most buyers end up choosing between a budget model and a Dyson, with not much in between.
 

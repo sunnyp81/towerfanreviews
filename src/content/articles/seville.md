@@ -1,6 +1,6 @@
 ---
 kind: review
-title: "Seville Tower Fan Review: The Cheapest Option Worth Considering?"
+title: "Seville Tower Fan Review: Is the Cheapest Worth It?"
 description: "Seville tower fan review covering airflow, noise and value at around £35. We look at whether this entry-level budget fan does enough for UK bedrooms in 2026."
 h1: "Seville Tower Fan Review"
 heroEyebrow: "Entry-level budget tower fan review"
@@ -15,14 +15,16 @@ faqs:
   - q: "Does the Seville tower fan oscillate?"
     a: "Yes, it has around 60 degrees of oscillation which is narrower than many rivals but sufficient for a small bedroom or desk setup. You can also lock it in a fixed position if you prefer directed airflow."
   - q: "How much electricity does the Seville tower fan use?"
-    a: "It is among the most economical tower fans available. At a typical setting it draws under 30 watts, costing well under a penny per hour at current UK rates. For a small fan running overnight the energy cost is negligible."
+    a: "Very little. At about 28 watts it costs roughly 0.7p per hour at the current Ofgem price cap. Running it overnight for eight hours adds only around 5-6p to your electricity bill."
 relatedSlugs:
   - best-cheap-tower-fans
-  - best-tower-fans
-  - tower-fan-running-cost
+  - tower-fan-buying-guide
+  - vonhaus
 ---
 
-The Seville tower fan sits at the bottom of the market in terms of price, at around 35 pounds. That is not a position it tries to hide from: this is an entry-level fan with a simple feature set aimed squarely at buyers who need to cool a small space without spending much. The honest question is not whether it matches pricier rivals, but whether it is worth 35 pounds on its own terms.
+The Seville tower fan is worth buying if your room is small, your budget is tight, and you simply need moving air without any complexity. It suits students, single-occupant bedrooms and home offices where the fan is positioned close to the user, providing quiet basic cooling for around 35 pounds. The honest trade-off is a short airflow range and no remote, timer or extra speeds.
+
+The Seville tower fan sits at the bottom of the market in terms of price. That is not a position it tries to hide from: this is an entry-level fan with a simple feature set aimed squarely at buyers who need to cool a small space without spending much. The honest question is not whether it matches pricier rivals, but whether it is worth 35 pounds on its own terms.
 
 ## Design and build quality
 
@@ -42,20 +44,20 @@ The two-speed setup means you have one comfortable overnight setting and one hig
 
 The lower speed is acceptably quiet: a soft hum that most people will not find disruptive. The top speed is louder than you would want overnight, with a motor note that is more noticeable in a quiet room. That said, for a budget bladed fan it is not especially loud compared with the competition at this price: the Seville sits in the middle of the noise range for its category.
 
-There is no rattling or vibration in normal use, which is a common complaint with very cheap fans. The noise is consistent and even rather than sharp or intermittent.
+There is no rattling or vibration in normal use, which is a common complaint with very cheap fans. The noise is consistent and even rather than sharp or intermittent, making it easier to tune out during sleep.
 
 ## Running costs
 
-At under 30 watts on a typical setting, the Seville is among the most economical tower fans you can buy. The energy cost of running it overnight is genuinely negligible, well under 5 pence for a full eight hours even at current UK rates. See our [tower fan running cost](/tower-fan-running-cost/) guide for a full breakdown across the category.
+At about 28W the Seville costs roughly 0.7p an hour at the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) of around 24-25p per kWh. Running it overnight for eight hours adds only around 5-6p to your bill, making it among the most economical tower fans you can buy. See our [tower fan buying guide](/tower-fan-buying-guide/) for a broader look at what to consider beyond running costs.
 
 ## Features
 
 There is not much to cover here. Two speeds, 60-degree oscillation, and that is essentially it. No timer, no remote, no breeze modes. For 35 pounds that is the reality of the market, and the Seville does not try to dress it up.
 
-If you need a timer or a remote, you will need to spend a little more. The MYLEK and Russell Hobbs tower fans both offer those features for around 40-45 pounds and represent clear step-ups in functionality.
+If you need a timer or a remote, you will need to spend a little more. The [VonHaus tower fan](/vonhaus/) and Russell Hobbs both offer those features for around 40-45 pounds and represent clear step-ups in functionality.
 
 ## Is the Seville worth it?
 
 If your room is small, your budget is tight and you just need something that moves air without costing much, yes. The Seville does what it says and does it reliably. It is not the best value per pound in the budget category, but it is the right answer when 35 pounds is the ceiling and the room is small.
 
-For a full view of what 40-45 pounds buys you across the category, our [best cheap tower fans](/best-cheap-tower-fans/) guide is the place to start. If your budget stretches a little further, our [best tower fans](/best-tower-fans/) roundup shows what an extra 20-30 pounds unlocks.
+For a full view of what 40-45 pounds buys you across the category, our [best cheap tower fans](/best-cheap-tower-fans/) guide is the place to start. If your budget stretches a little further, our [tower fan buying guide](/tower-fan-buying-guide/) shows what an extra 20-30 pounds unlocks.

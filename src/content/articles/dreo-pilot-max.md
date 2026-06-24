@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-At around £90, the Dreo Pilot Max lands in the territory where most buyers are genuinely well served. It is not a budget compromise and it is not a premium luxury: it is a capable, well-specified tower fan that does most things right. The question is whether the app control and wider oscillation justify the extra over a simpler £50 fan.
+The Dreo Pilot Max is worth buying for most UK households: it delivers strong airflow, app and voice control, a 120-degree oscillation arc, and 12 speed steps for around £90. It suits smart-home users, people with larger rooms, and anyone who wants granular speed control without spending Dyson money. The main caveat is that it cannot match the MeacoFan 1056 for pure bedroom quiet.
 
 ## Design and build quality
 
@@ -39,11 +39,11 @@ Airflow quality at mid-range speeds is good. The motor produces a reasonably eve
 
 ## Noise
 
-The Pilot Max is quiet by bladed fan standards. On its lower speeds the motor note is smooth and low, without the higher-pitched whine some budget fans produce. It is not in the same league as the MeacoFan 1056 or Dyson AM07 for pure silence, but it is comfortably ahead of most competitors at this price point. The 12-speed range is the key advantage here: you are never forced to run it faster than you need to, which keeps noise down in practice.
+The Pilot Max is quiet by bladed fan standards. On its lower speeds the motor produces a smooth, low-frequency hum without the higher-pitched whine common in cheaper fans. The sound character is steady and unobtrusive rather than cyclic or mechanical. It is not in the same league as the [MeacoFan 1056](/meacofan-1056/) or Dyson AM07 for pure bedroom silence, but it is comfortably ahead of most bladed competitors at this price. The 12-speed range is the practical advantage: you are never forced to run it faster than you need to, which keeps noise down in real use.
 
 ## Running costs
 
-Like all tower fans, the Pilot Max is inexpensive to operate. Typical usage sits well under 50 watts, so running costs are a matter of pence per evening rather than pounds per month. The sleep timer and scheduling features in the app help avoid the fan running unnecessarily through the night if you fall asleep before switching it off.
+The Pilot Max draws around 48W on medium settings. At roughly 24-25p per kWh under the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap), that works out to about 1.2p an hour, so a full night runs to around 10p. The sleep timer and scheduling features in the Dreo app help avoid the fan running unnecessarily through the night if you fall asleep before switching it off.
 
 ## Features
 
@@ -55,6 +55,8 @@ Four wind modes cover normal, natural, sleep and auto. Natural mode introduces a
 
 For most buyers, this is the tower fan to buy. It offers strong airflow, genuine quiet at lower speeds, wide oscillation, app and remote control, and 12 speed steps, all for around £90. You give up Dyson's bladeless refinement and build quality, but you keep an extra £200 in your pocket.
 
-The main reason to look elsewhere is if ultra-quiet operation is your top priority: the [MeacoFan 1056](/meacofan-1056/) edges it for pure silence. If budget is the driver and you do not need app control, the [Dreo Cruiser](/dreo-cruiser/) covers the basics for £20 less.
+The main reason to look elsewhere is if ultra-quiet operation is your top priority: the [MeacoFan 1056](/meacofan-1056/) edges it for pure bedroom silence. If budget is the driver and you do not need app control, the [Dreo Cruiser Pro](/dreo-cruiser/) covers the basics for £20 less.
 
-For a full comparison of smart tower fans, see the [best tower fans](/best-tower-fans/) roundup.
+For a full comparison of smart tower fans, see the [best tower fans](/best-tower-fans/) roundup. More on the full Dreo range is at the [Dreo tower fans](/dreo-tower-fans/) hub.
+
+For guidance on using electrical appliances safely, [Electrical Safety First](https://www.electricalsafetyfirst.org.uk) is the UK's leading independent electrical safety charity.

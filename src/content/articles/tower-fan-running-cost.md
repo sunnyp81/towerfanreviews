@@ -23,11 +23,11 @@ relatedSlugs:
   - do-tower-fans-cool-a-room
 ---
 
-Tower fans are some of the cheapest appliances in any home to run. Here is the exact maths at 2026 UK energy prices, so you know what you are actually paying.
+Tower fans cost roughly 1-2p per hour to run at 2026 UK energy prices, making them one of the cheapest appliances in any home. A 40W fan left on overnight costs under 10p. This guide shows the exact maths across wattages, compares overnight and seasonal costs, and puts tower fan running costs alongside air conditioning.
 
 ## 2026 UK energy prices
 
-The Ofgem price cap for Q2 2026 is set at around 24p per kWh for most households on a standard variable tariff. Some fixed-rate deals are slightly cheaper (around 22p) and some prepayment meters run slightly higher (up to 28p). This guide uses 24p per kWh as the working figure and 28p as the high-end reference.
+The [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) for Q2 2026 is set at around 24p per kWh for most households on a standard variable tariff. Some fixed-rate deals are slightly cheaper (around 22p) and some prepayment meters run slightly higher (up to 28p). This guide uses 24p per kWh as the working figure and 28p as the high-end reference.
 
 ## How many watts does a tower fan use?
 
@@ -95,6 +95,12 @@ Use a timer. Most decent tower fans include a 1-8 hour timer. Setting the fan to
 Use a lower speed. Running a 50W fan at medium speed may draw only 25-30W, cutting the hourly cost nearly in half. Many people cannot tell the difference in airflow between medium and maximum in a bedroom.
 
 Close the room. A fan cooling a sealed bedroom works harder and less efficiently. But in a bedroom with the door closed, the ambient temperature rises more slowly at night, meaning a shorter fan run may be sufficient.
+
+## Energy efficiency tips from the experts
+
+The [Energy Saving Trust](https://energysavingtrust.org.uk/hub/quick-tips-to-save-energy/) recommends using fans instead of air conditioning wherever possible, as fans use a fraction of the energy. Their guidance also suggests using a timer to avoid running appliances unnecessarily overnight, which aligns well with tower fan use.
+
+A fan combined with good ventilation (open windows at night when outside temperatures drop) is the most energy-efficient way to manage summer heat in a UK home. See [do tower fans actually cool a room](/do-tower-fans-cool-a-room/) for the full strategy.
 
 ## The bottom line
 

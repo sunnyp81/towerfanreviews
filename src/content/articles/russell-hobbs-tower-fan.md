@@ -19,8 +19,10 @@ faqs:
 relatedSlugs:
   - best-cheap-tower-fans
   - best-tower-fans-with-remote
-  - best-tower-fans
+  - tower-fan-buying-guide
 ---
+
+The Russell Hobbs tower fan is worth buying if you want remote control, a reliable timer and brand-backed support at the top of the budget range. It suits most buyers who are unsure what to get: consistent airflow, a functional remote and eight-hour timer, all for around 45 pounds with the reassurance of a proper UK warranty. The only gap compared with the similarly priced VonHaus is the absence of a natural breeze mode.
 
 Russell Hobbs is one of those UK appliance brands that does not need much introduction. The toasters and kettles have been on British worktops for decades, and the tower fan extends that formula into the cooling category: familiar, reliable, sensibly priced. At around 45 pounds with a remote included, it sits at the top of the budget tier and represents what most buyers should probably buy if they are not sure what to get.
 
@@ -42,11 +44,11 @@ What is notable is the consistency between speeds. The Russell Hobbs does not dr
 
 On the lower two settings the Russell Hobbs is among the quieter budget bladed fans. The motor produces a steady background hum rather than a sharp whine, and there is no rattling or vibration in normal use. The lower setting is comfortable to sleep alongside for most people.
 
-The top setting is louder, as is the case with almost every budget tower fan. It is not unusually loud for the category, but it is the kind of sound that will wake a light sleeper. In practice the middle setting delivers enough airflow for most overnight situations and is significantly quieter.
+The top setting is louder, as is the case with almost every budget tower fan. It is not unusually loud for the category: at 45 watts the Russell Hobbs sits broadly in line with bladed rivals at this price rather than standing out as particularly noisy. In practice the middle setting delivers enough airflow for most overnight situations and is significantly quieter.
 
 ## Running costs
 
-At around 40-45 watts across its speed range, the Russell Hobbs costs roughly a penny to two pence per hour at 2026 UK electricity rates. An overnight run at a moderate setting adds only a few pence to your bill. The eight-hour timer means you can set it to switch off before morning without worrying about leaving it running all night.
+At about 45W the Russell Hobbs costs roughly 1.1p an hour at the [Ofgem price cap](https://www.ofgem.gov.uk/energy-price-cap) of around 24-25p per kWh. An overnight run at a moderate setting adds only around 8-9p to your bill. The eight-hour timer means you can set it to switch off before morning without worrying about leaving it running all night.
 
 ## Features
 
@@ -54,10 +56,10 @@ The remote is the headline feature at this price, and it works. Infrared range i
 
 Three speeds plus oscillation control from the remote means you can adjust almost everything you would want to change without leaving your chair or bed. That level of convenience is what the extra few pounds over a no-remote rival actually buys you, and for most buyers it is worth it.
 
-The absence of a natural breeze mode is a slight gap compared with the VonHaus, which includes one at a similar price without the remote. It depends on which feature you value more.
+Russell Hobbs products carry UK standard safety certifications; for general advice on using tower fans safely at home, [Electrical Safety First](https://www.electricalsafetyfirst.org.uk) is a useful starting point.
 
 ## Is the Russell Hobbs worth it?
 
 For most budget buyers, yes. The combination of a remote, a practical timer, solid airflow and Russell Hobbs brand reliability makes it the safest choice in the budget category. You are paying a small premium over unbranded alternatives, and what you get in return is a fan that is a little better built, backed by a proper warranty, and includes the convenience features most people actually use.
 
-If you do not need a remote and want to prioritise airflow, the VonHaus at a similar price is worth comparing. For the full budget breakdown, see our [best cheap tower fans](/best-cheap-tower-fans/) guide. For a wider look at remote-equipped options across all price points, our [best tower fans with remote](/best-tower-fans-with-remote/) roundup has the full picture, and our [best tower fans](/best-tower-fans/) guide covers the whole market.
+If you do not need a remote and want to prioritise airflow, the [VonHaus tower fan](/vonhaus/) at a similar price is worth comparing. For the full budget breakdown, see our [best cheap tower fans](/best-cheap-tower-fans/) guide, and our [tower fan buying guide](/tower-fan-buying-guide/) if you want help deciding between remote and no-remote options across the budget range.
