@@ -9,6 +9,7 @@ items:
   - dyson-cool-am07
   - dyson-purifier-cool
   - silvercrest-bladeless-tower-fan
+  - vortex-air-pro
 updatedDate: 2026-06-21
 featured: false
 faqs:
@@ -56,6 +57,8 @@ The Dyson models are expensive, and there is no point pretending otherwise. What
 Budget bladeless fans from brands like Silvercrest have closed the gap considerably on cooling performance. You may notice a little more mechanical noise on higher speeds, and the materials feel less premium in the hand, but the airflow is real and the safety benefit is identical. If you are buying primarily for safety around children and can live without whisper-quiet operation, the [Silvercrest bladeless tower fan](/silvercrest-bladeless-tower-fan/) is a smart purchase at a fraction of the Dyson price.
 
 For buyers who also want air purification, the Dyson Purifier Cool adds a HEPA and activated carbon filter to the bladeless formula, which is particularly useful for hay fever sufferers. The [Dyson AM07](/dyson-am07/) sits between these two in terms of features: bladeless cooling with Dyson's build quality but without the purifier premium.
+
+At the entry level, the [Vortex Air Pro](/vortex-air-pro/) is the cheapest bladeless tower fan we would recommend at around £40. It is not in the same league as a Dyson for airflow or noise, but for a child's bedroom or a small study where the priority is safe, blade-free cooling on a tight budget, it does the job.
 
 The middle ground is thin: there are not many credible bladeless options between roughly £80 and £250. That gap means most buyers end up choosing between a budget model and a Dyson, with not much in between.
 

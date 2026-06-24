@@ -1,10 +1,10 @@
 ---
 kind: guide
-title: "Tower Fan vs Pedestal Fan: Which Should You Buy?"
-description: "Tower fan or pedestal fan? We compare space, airflow, noise, looks and use cases to help you choose the right type for your home in 2026."
+title: "Tower Fan vs Pedestal Fan: Which Is Best in 2026?"
+description: "Tower fan or pedestal fan? We compare space, airflow, noise, looks and use cases to help you choose the right type for your UK home this summer."
 h1: "Tower Fan vs Pedestal Fan: Which Should You Buy?"
 heroEyebrow: "Tower fan guide"
-updatedDate: 2026-06-21
+updatedDate: 2026-06-24
 featured: false
 faqs:
   - q: "Is a tower fan better than a pedestal fan?"

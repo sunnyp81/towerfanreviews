@@ -1,9 +1,50 @@
-# Cloudflare Pages 301 redirects — old WordPress slugs -> new structure
-/best-hot-cold/                /best-tower-fan-heaters/        301
-/tower-fan-heater-best-5-to-buy/  /best-tower-fan-heaters/     301
-/best-bladeless/              /best-bladeless-tower-fans/      301
-/dyson-purifying/             /dyson-tower-fans/               301
-/dyson-cool-am07/             /dyson-cool-am07/                200
-/dyson-am06-desk/             /dyson-tower-fans/               301
-/honeywell-hy254e-quietset/   /honeywell-hy254e-quietset/      200
-/vornado/                     /best-tower-fans/                301
+# Cloudflare Pages 301 redirects - old WordPress slugs to new structure.
+# Preserves ~30k indexed impressions from the old WP site onto the closest new page.
+# Pages that keep the same slug (e.g. /dyson-cool-am07/, /seville/, /ansio/) need no entry.
+
+# --- High-impression brand/model pages ---
+/dyson-pure-cool/                          /dyson-tower-fans/               301
+/dimplex-mont-blanc-cooling-fan-review/    /dimplex-mont-blanc/            301
+/bionaire-bt19-iuk/                        /best-tower-fans/               301
+/honeywell-quietset/                       /honeywell-hy254e-quietset/    301
+/electriq-bladeless/                       /best-bladeless-tower-fans/    301
+/simple-deluxe-bladeless-fan-review/       /best-bladeless-tower-fans/    301
+/acoolir-bladeless/                        /best-bladeless-tower-fans/    301
+/ocean-loong/                              /best-tower-fans/              301
+/ctf-100-ctf-200-climatik/                 /best-tower-fans/              301
+/blackdecker-tower-fan-review-quiet-powerful/  /best-tower-fans/          301
+/oypla-18/                                 /best-cheap-tower-fans/        301
+/dyson-am06-desk/                          /dyson-tower-fans/             301
+/vornado/                                  /best-tower-fans/              301
+/dyson-purifying/                          /dyson-tower-fans/             301
+
+# --- Roundups / best-of ---
+/best/                                     /best-tower-fans/              301
+/best-quiet/                               /best-quiet-tower-fans/        301
+/best-mini/                                /best-mini-tower-fans/         301
+/best-under-100/                           /best-cheap-tower-fans/        301
+/best-with-ionizer-air-purifier/           /best-tower-fans/              301
+/best-hot-cold/                            /best-tower-fan-heaters/       301
+/tower-fan-heater-best-5-to-buy/           /best-tower-fan-heaters/       301
+/quiet-tower-fan-with-remote-reviews/      /best-tower-fans-with-remote/  301
+/best-bladeless/                           /best-bladeless-tower-fans/    301
+
+# --- Comparison / informational ---
+/pedestal-vs-tower-fan/                    /tower-fan-vs-pedestal-fan/    301
+/why-better/                               /tower-fan-vs-pedestal-fan/    301
+/vs-air-cooler/                            /do-tower-fans-cool-a-room/    301
+/cool-air-room/                            /do-tower-fans-cool-a-room/    301
+/leave-on-overnight/                       /do-tower-fans-cool-a-room/    301
+/blades-toddlers-safe/                     /best-bladeless-tower-fans/    301
+
+# --- Troubleshooting / how-to ---
+/why-not-working/                          /why-making-noise-rattling/    301
+/clean-dust-dyson/                         /how-to-clean-a-tower-fan/     301
+/clean-lasko/                              /how-to-clean-a-tower-fan/     301
+
+# --- Running cost ---
+/more-efficient/                           /tower-fan-running-cost/       301
+/how-much-cost/                            /tower-fan-running-cost/       301
+
+# --- Old WP spam (site was hacked) - let these 404 naturally, do NOT pass equity:
+#   /genting-casino-bolton/ /grosvenor-casino-coventry/ /top-10-casinos-online/ /merkur-slots-review/ /status/

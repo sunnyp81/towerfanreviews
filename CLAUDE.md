@@ -30,11 +30,12 @@ Old WP+Ezoic site was effectively dead: ~1,100 impressions / **2 clicks in 3 mon
 - Affiliate honesty: no fabricated lab measurements; realistic spec ranges only.
 - Run `npm run build` before shipping. Don't run concurrent builds (dist race).
 
-## DEPLOY — pending Sunny (NOT yet live)
-1. Create GitHub repo `sunnyp81/towerfanreviews`, push `master`.
-2. Cloudflare Pages: connect repo, build `npm run build`, output `dist`, NODE_VERSION=22.
-3. DNS: point `towerfanreviews.uk` to the CF Pages project.
-4. `public/_redirects` maps old WP slugs → new structure (preserved `/used-on-its-side/`, `/dyson-cool-am07/`, `/honeywell-hy254e-quietset/`).
+## DEPLOY — LIVE on pages.dev (custom domain pending)
+- **GitHub:** `github.com/sunnyp81/towerfanreviews` (public, `master`). Pushed.
+- **LIVE:** https://towerfanreviews.pages.dev — CF Pages project `towerfanreviews`, account sunnypat81@gmail.com (`aba0a672…`). Created via wrangler **direct upload** (not git-connected; dashboard OAuth needed to wire push-to-deploy).
+- **Redeploy:** `npm run deploy` (astro build + `wrangler pages deploy dist`). `_redirects` + `_headers` verified live.
+- **Point towerfanreviews.uk at it (needs Sunny):** DNS is at **Hostinger** (NS `ns1/ns2.dns-parking.com`, old WP IP 217.21.71.90); zone is NOT in Cloudflare and wrangler token is zone:read only, so DNS can't be set from CLI. Recommended: add the zone in the sunnypat81 CF account → switch NS at Hostinger to CF → CF Pages → `towerfanreviews` → Custom domains → add `towerfanreviews.uk` + `www` (DNS auto-created). Then submit `https://towerfanreviews.uk/sitemap-index.xml` to GSC + Bing; re-attach Ezoic.
+- `public/_redirects` maps old WP slugs to new structure. **Jun 24 summer pass:** completed the map from 16-month GSC export (`Downloads/towerfanreviews.uk-Performance-on-Search-2026-06-24.xlsx`). 34 rules now transfer ~30k indexed impressions that previously had no matching page/redirect (e.g. `/dyson-pure-cool/` 5k, `/pedestal-vs-tower-fan/` 3.8k, `/dimplex-mont-blanc-cooling-fan-review/` 4.5k, winners `/why-not-working/`, `/ctf-100-ctf-200-climatik/`). Old WP was hacked: casino/slots spam URLs left to 404 (not redirected). All 34 targets verified to resolve. CTR pass found titles already strong (UK+2026); only `/tower-fan-vs-pedestal-fan/` retitled for freshness.
 5. Submit sitemap `https://towerfanreviews.uk/sitemap-index.xml` to GSC + Bing.
 6. Re-attach Ezoic / set up AdSense when traffic returns.
 

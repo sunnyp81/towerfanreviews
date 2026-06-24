@@ -23,7 +23,7 @@ relatedSlugs:
   - best-tower-fans
 ---
 
-A clean tower fan moves more air, runs quieter and lasts longer. You can clean most models thoroughly without undoing a single screw, using only a vacuum and a can of compressed air. A clean every six to eight weeks during regular use prevents the dust buildup that causes rattling, reduced airflow and motor strain.
+A clean tower fan moves more air, runs quieter and lasts longer. You can clean most models thoroughly without undoing a single screw, using only a vacuum and a can of compressed air. A clean every six to eight weeks during regular use prevents the dust buildup that causes rattling, reduced airflow and motor strain. If you are shopping for a fan that is simpler to keep clean in the first place, [bladeless tower fans](/best-bladeless-tower-fans/) have no exposed blades and wipe down in seconds.
 
 ## What you will need
 
@@ -81,4 +81,4 @@ If the fan is out of warranty and genuinely filthy, some models can be opened ca
 
 For a fan running most days during summer, a quick vacuum and compressed-air session every six to eight weeks is enough. If you have pets or live in a dusty environment, aim for once a month. A small label on the base with the last clean date makes it easy to keep track.
 
-A fan that is cleaned regularly is also much less likely to develop the rattling noise that plagued-dusty impellers cause. For more on that, see our guide to [why your tower fan is making a rattling noise](/why-making-noise-rattling/).
+A fan that is cleaned regularly is also much less likely to develop the rattling noise that dusty impellers cause. For more on that, see our guide to [why your tower fan is making a rattling noise](/why-making-noise-rattling/). And if cleaning no longer restores the airflow and your fan is past its best, our [best tower fans](/best-tower-fans/) roundup covers the models worth replacing it with.
