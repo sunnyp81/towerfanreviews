@@ -1,12 +1,21 @@
 // Site-wide constants + JSON-LD schema builders.
 
+// No ad network is wired yet. While false, AdSlot renders nothing rather than an
+// empty "Advertisement" box. Flip to true in the same commit that adds the script.
+export const ADS_ENABLED = false;
+
+// Set PUBLIC_GA4_ID (e.g. G-XXXXXXXXXX) in the Cloudflare Pages build env to enable
+// analytics. The privacy policy reads this too, so it can never claim analytics we
+// do not actually run.
+export const GA4_ID: string = import.meta.env.PUBLIC_GA4_ID ?? '';
+
 export const SITE = {
   name: 'Tower Fan Reviews',
   url: 'https://towerfanreviews.uk',
   domain: 'towerfanreviews.uk',
   tagline: 'Independent UK tower fan reviews & buying guides',
   description:
-    'Independent, hands-on UK tower fan reviews, comparisons and buying guides. We test bladeless, hot & cold and quiet tower fans to help you stay cool for less.',
+    'Independent UK tower fan reviews, comparisons and buying guides. We compare bladeless, hot & cold and quiet tower fans on published specs, owner reviews and running costs.',
   locale: 'en_GB',
   twitter: '@towerfanreviews',
   publisher: 'Tower Fan Reviews',
@@ -18,12 +27,14 @@ export const SITE = {
   ],
 } as const;
 
-// Real, named editor for E-E-A-T (the site owner). Never fabricate credentials.
+// Real, named editor for E-E-A-T (the site owner). Never fabricate credentials
+// or testing we have not done: this site rates fans on published specs, owner
+// reviews and running-cost maths, not on lab measurements.
 export const EDITOR = {
   name: 'Sunny Patel',
   url: 'https://www.sunnypatel.co.uk',
   jobTitle: 'Editor',
-  bio: 'Sunny Patel runs Tower Fan Reviews, buying and testing tower fans in real UK homes to give honest, independent buying advice.',
+  bio: 'Sunny Patel runs Tower Fan Reviews, comparing UK tower fans on published specifications, verified owner reviews and running-cost calculations to give honest, independent buying advice.',
 } as const;
 
 export function personSchema() {

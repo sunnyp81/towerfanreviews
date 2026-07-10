@@ -63,7 +63,7 @@ Beyond that, the feature set is honest and unglamorous: remote control, 12 speed
 
 For quiet-first buyers, yes, emphatically. At £100 it costs more than a budget fan but delivers a fundamentally better quiet experience than anything cheaper. For light sleepers, bedroom users, home-office workers who need to be on calls, or anyone who has previously found fans too noisy, the 1056 resolves the problem.
 
-If noise is not your primary concern and you want app control, the [Dreo Pilot Max](/dreo-pilot-max/) at similar money offers more smart features. If you want the very best quiet performance and cost is secondary, the [Dyson AM07](/dyson-am07/) edges ahead but costs three times as much.
+If noise is not your primary concern and you want app control, the [Dreo Pilot Max](/dreo-pilot-max/) at similar money offers more smart features. If you want the very best quiet performance and cost is secondary, the [Dyson Cool AM07](/dyson-cool-am07/) edges ahead but costs three times as much.
 
 For all our quiet fan recommendations, see [best quiet tower fans](/best-quiet-tower-fans/). For the full market view, start at [best tower fans](/best-tower-fans/).
 

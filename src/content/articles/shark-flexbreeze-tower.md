@@ -1,7 +1,7 @@
 ---
 kind: review
 title: "Shark FlexBreeze Tower Fan Review: Cordless (2026)"
-description: "Shark FlexBreeze tower fan review: cordless battery mode, airflow, noise and value tested. The only tower fan that truly works without a plug socket in 2026."
+description: "Shark FlexBreeze tower fan review: cordless battery mode, airflow, noise and value compared. The only tower fan that truly works without a plug socket in 2026."
 h1: "Shark FlexBreeze Tower Fan Review"
 heroEyebrow: "Cordless tower fan review"
 productSlug: shark-flexbreeze-tower
@@ -27,7 +27,7 @@ The Shark FlexBreeze Tower Fan is worth buying if you have a genuine cordless us
 
 ## Design and build quality
 
-The FlexBreeze has a distinctly practical aesthetic: tall, cylindrical, slightly broader at the base than most tower fans to accommodate the battery. It is available in a neutral grey-white colourway that reads as modern without being particularly striking. The build feels solid and deliberate rather than premium, with slightly heavier construction than a comparable corded fan due to the integrated battery pack.
+The FlexBreeze has a distinctly practical aesthetic: tall, cylindrical, slightly broader at the base than most tower fans to accommodate the battery. It is available in a neutral grey-white colourway that reads as modern without being particularly striking. Owners describe the build as solid and deliberate rather than premium, with slightly heavier construction than a comparable corded fan due to the integrated battery pack.
 
 Controls are placed on a touch panel on the unit and duplicated on a compact remote. The remote handles power, six speed settings, oscillation and timer. The experience of converting between corded and cordless is simple: the power lead connects to the base and can be disconnected in seconds. There is no complex mode-switching or battery management menu.
 

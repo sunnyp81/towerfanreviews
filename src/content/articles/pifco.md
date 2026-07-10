@@ -1,7 +1,7 @@
 ---
 kind: review
 title: "Pifco Tower Fan Review: Is the Cheapest Option Good Enough?"
-description: "Pifco tower fan review. We test this compact budget fan on airflow, noise and honest value to decide if it earns a place in your home at around £30 in 2026."
+description: "Pifco tower fan review. We compare this compact budget fan on airflow, noise and honest value to decide if it earns a place in your home at around £30 in 2026."
 h1: "Pifco Tower Fan Review"
 heroEyebrow: "Compact budget tower fan review"
 productSlug: pifco

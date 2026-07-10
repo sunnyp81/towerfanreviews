@@ -4,6 +4,9 @@ title: "How Much Does a Tower Fan Cost to Run? (2026 UK)"
 description: "Tower fan running costs in pence per hour at 2026 UK energy prices. Real maths for overnight use, all-day use, and how it compares to air conditioning."
 h1: "How Much Does a Tower Fan Cost to Run? (UK, 2026)"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - honeywell-hy254e-quietset
 updatedDate: 2026-06-21
 featured: false
 faqs:

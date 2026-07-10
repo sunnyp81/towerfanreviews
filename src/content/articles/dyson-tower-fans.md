@@ -8,13 +8,12 @@ brand: Dyson
 items:
   - dyson-cool-am07
   - dyson-purifier-cool
-  - dyson-am07
   - dyson-hot-cool
 updatedDate: 2026-06-21
 featured: false
 faqs:
   - q: "Are Dyson tower fans worth it?"
-    a: "For the right buyer, yes. Dyson fans are genuinely quieter, safer and better built than the competition. The bladeless design is child-safe and easy to clean. If you want the quietest possible fan for a bedroom or a living room showpiece, the premium is justified. If you just want cooling air moved around, a £70-90 fan does that job."
+    a: "For the right buyer, yes. Owner reviews consistently rate Dyson fans quieter, safer and better built than the competition. The bladeless design is child-safe and easy to clean. If you want the quietest possible fan for a bedroom or a living room showpiece, the premium is justified. If you just want cooling air moved around, a £70-90 fan does that job."
   - q: "Do Dyson tower fans actually cool the air?"
     a: "No. Like all fans, Dyson models move and circulate air rather than refrigerating it. The perceived cooling effect comes from air passing over your skin and evaporating moisture. The Dyson Purifier Cool adds HEPA filtration, which removes allergens and pollutants, but the air temperature itself does not drop."
   - q: "How long do Dyson tower fans last?"
@@ -39,7 +38,7 @@ In terms of brand positioning, Dyson sits firmly at the premium end. They do not
 
 ## What Dyson tower fans are known for
 
-The clearest strengths are quietness, build quality and safety. The bladeless design means no grille to collect dust in hard-to-clean places, no exposed spinning parts, and a smooth airflow that is less turbulent than a traditional fan. These are not marketing claims: side-by-side, the difference in noise character is audible, particularly on the lower settings where most people run a fan overnight.
+The clearest strengths are quietness, build quality and safety. The bladeless design means no grille to collect dust in hard-to-clean places, no exposed spinning parts, and a smooth airflow that is less turbulent than a traditional fan. These are not marketing claims: owner reviews consistently note the difference in noise character, particularly on the lower settings where most people run a fan overnight.
 
 The AM07 range (the cooling-only models) are the most straightforward buy. The Purifier Cool adds a sealed HEPA and activated carbon filter, which is genuinely useful for allergy sufferers or homes in polluted urban areas. The Hot+Cool extends the range to year-round use with a heating element, making it one of the few fans that earns its price across twelve months rather than six.
 

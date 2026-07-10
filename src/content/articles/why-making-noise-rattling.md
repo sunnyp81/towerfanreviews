@@ -4,6 +4,10 @@ title: "Why Is My Tower Fan Making a Rattling Noise? (How to Fix It)"
 description: "Tower fan rattling? Here are the five most common causes and step-by-step fixes you can do at home without tools, from dust buildup to worn bearings."
 h1: "Why Is My Tower Fan Making a Rattling Noise?"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - meacofan-1056
+  - honeywell-hy254e-quietset
 updatedDate: 2026-06-21
 featured: false
 faqs:

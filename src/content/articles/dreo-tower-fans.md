@@ -14,7 +14,7 @@ faqs:
   - q: "Where are Dreo fans made?"
     a: "Dreo fans are designed by a US-based consumer electronics company and manufactured in China, like the vast majority of fans sold in the UK. The brand was founded in 2017 and focuses on smart home appliances. Manufacturing in China does not reflect poorly on quality, since Dreo applies solid quality control and backs its products with a reasonable warranty."
   - q: "Are Dreo fans any good?"
-    a: "Yes. Dreo fans consistently rank among the best mid-range tower fans for their combination of quiet operation, generous speed settings and genuinely useful smart features. They represent strong value at around £70-100 and regularly outperform fans costing significantly more on real-world noise and airflow tests."
+    a: "Yes. Dreo fans consistently rank among the best mid-range tower fans for their combination of quiet operation, generous speed settings and genuinely useful smart features. They represent strong value at around £70-100 and, according to owner reviews, regularly outperform fans costing significantly more on real-world noise and airflow."
   - q: "Do Dreo fans work with Alexa and Google Home?"
     a: "The Pilot Max and most current Dreo tower fan models support both Amazon Alexa and Google Home voice control via the Dreo app. Setup requires the app on your phone and a 2.4GHz Wi-Fi connection. Once linked, you can adjust speed, set timers and turn the fan on or off by voice."
   - q: "How noisy are Dreo tower fans?"

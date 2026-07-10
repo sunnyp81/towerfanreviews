@@ -1,7 +1,7 @@
 ---
 kind: review
 title: "Russell Hobbs Tower Fan Review: Reliable Budget Remote Fan?"
-description: "Russell Hobbs tower fan review. We test airflow, remote usability, noise and value to find out if this UK brand budget fan justifies its £45 price in 2026."
+description: "Russell Hobbs tower fan review. We compare airflow, remote usability, noise and value to find out if this UK brand budget fan justifies its £45 price in 2026."
 h1: "Russell Hobbs Tower Fan Review"
 heroEyebrow: "Budget tower fan with remote review"
 productSlug: russell-hobbs-tower-fan

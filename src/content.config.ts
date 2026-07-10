@@ -9,14 +9,15 @@ const articles = defineCollection({
     /** review = single product, roundup = best-of list, brand = brand hub, guide = info/FAQ */
     kind: z.enum(['review', 'roundup', 'brand', 'guide']),
     title: z.string(),
-    /** Meta description, 140–160 chars */
+    /** Meta description, 140-160 chars */
     description: z.string(),
     /** Defaults to title if omitted */
     h1: z.string().optional(),
     heroEyebrow: z.string().optional(),
     /** review only: the product slug in src/data/products */
     productSlug: z.string().optional(),
-    /** roundup/brand: ranked list of product slugs */
+    /** roundup/brand: ranked list of product slugs, rendered as a comparison table.
+     *  guide: optional short list of recommended products, rendered as a pick block. */
     items: z.array(z.string()).optional(),
     /** category key for roundups (best, bladeless, heater, remote, quiet, mini) */
     category: z.string().optional(),

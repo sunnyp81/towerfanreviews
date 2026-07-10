@@ -38,10 +38,13 @@ const sectionMap: Record<string, { name: string; url: string }> = {
   brand: { name: 'Brands', url: '/brands/' },
   guide: { name: 'Guides', url: '/guides/' },
 };
+// Skip the section crumb when it IS this page: /best-tower-fans/ is both the
+// roundup section parent and a page, which produced a BreadcrumbList with two
+// positions pointing at the same URL.
 const section = sectionMap[data.kind];
 const crumbs = [
   { name: 'Home', url: '/' },
-  ...(section ? [section] : []),
+  ...(section && section.url !== path ? [section] : []),
   { name: data.title, url: path },
 ];
 
@@ -66,6 +69,10 @@ const schema = graph(...schemaNodes);
 const related = data.relatedSlugs.map((s) => ({ slug: s, title: titleBySlug.get(s) })).filter((r) => r.title);
 const updated = (data.updatedDate ?? data.publishDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 const isList = data.kind === 'roundup' || data.kind === 'brand';
+
+// Guides declare `items` to surface a small pick block; they get no comparison table.
+const guidePicks = data.kind === 'guide' ? items : [];
+const hasAffiliateLinks = Boolean(product) || items.length > 0;
 ---
 <Base title={data.title} description={data.description} path={path} schema={schema} ogImage={data.ogImage}>
   <!-- Hero -->
@@ -80,7 +87,7 @@ const isList = data.kind === 'roundup' || data.kind === 'brand';
           <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"/></svg>By <a href={EDITOR.url} rel="author" class="font-medium text-ink-700 hover:text-breeze-700">{EDITOR.name}</a></span>
           <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06a4c4" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>Updated {updated}</span>
           {product && <span class="inline-flex items-center gap-1.5"><RatingStars rating={product.rating} size="sm" /></span>}
-          <span class="inline-flex items-center gap-1.5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Independently tested</span>
+          <a href="/how-we-rate/" class="inline-flex items-center gap-1.5 hover:text-breeze-700"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Independent, no paid placements</a>
         </div>
       </div>
     </div>
@@ -88,10 +95,18 @@ const isList = data.kind === 'roundup' || data.kind === 'brand';
 
   <div class="mx-auto max-w-6xl px-4 py-10 grid lg:grid-cols-[1fr_280px] gap-10">
     <article class="min-w-0">
+      {/* ASA/CAP and the Amazon Associates agreement require disclosure before the first
+          affiliate link, not only in the footer. Must stay above SpecBox and ComparisonTable. */}
+      {hasAffiliateLinks && (
+        <p class="mb-6 rounded-lg border border-breeze-100 bg-mist/70 px-4 py-3 text-sm text-ink-700">
+          We may earn a commission if you buy through links on this page, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/how-we-rate/" class="font-medium text-breeze-700 underline underline-offset-2">How we rate fans</a>.
+        </p>
+      )}
+
       <!-- Review at-a-glance -->
       {product && <div class="mb-8"><SpecBox product={product} /></div>}
 
-      <!-- Roundup picks -->
+      <!-- Roundup picks (guides get a lighter block below the article body) -->
       {isList && items.length > 0 && (
         <div class="mb-10">
           <h2 class="text-2xl mb-4">At a glance: our top picks</h2>
@@ -108,6 +123,17 @@ const isList = data.kind === 'roundup' || data.kind === 'brand';
       <div class="prose-tf max-w-none">
         <Content />
       </div>
+
+      <!-- Guide picks: guides pull buying-intent traffic, so give them a real recommendation -->
+      {guidePicks.length > 0 && (
+        <section class="mt-10 rounded-2xl border border-breeze-100 bg-mist/50 p-6">
+          <h2 class="text-2xl">Fans we recommend</h2>
+          <p class="mt-1.5 text-ink-500">Our current picks, chosen on specs, owner reviews and running cost.</p>
+          <div class="grid sm:grid-cols-2 gap-5 mt-6">
+            {guidePicks.map((p, i) => <ProductCard product={p} rank={i + 1} />)}
+          </div>
+        </section>
+      )}
 
       <!-- Review pros/cons -->
       {product && <ProsCons pros={product.pros} cons={product.cons} />}

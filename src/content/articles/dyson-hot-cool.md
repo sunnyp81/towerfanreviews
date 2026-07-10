@@ -18,7 +18,7 @@ faqs:
     a: "Yes. In fan mode it behaves exactly like the AM07 cooling fan: 10 speeds, oscillation and a smooth bladeless airstream. The heating element is inactive. It is genuinely two appliances in one, which is the core argument for the higher price."
 relatedSlugs:
   - dyson-tower-fans
-  - dyson-am07
+  - dyson-cool-am07
   - best-tower-fan-heaters
   - best-tower-fans
 ---
@@ -27,7 +27,7 @@ The Dyson Hot+Cool AM09 is worth buying if you want one appliance for both summe
 
 ## Design and build quality
 
-The AM09 shares the AM07's design language: bladeless oval loop, weighted base, magnetic remote. In person the two are almost indistinguishable unless you look closely at the slightly wider body of the AM09, which accommodates the heating element. Both colourways are understated and suit most room styles.
+The AM09 shares the AM07's design language: bladeless oval loop, weighted base, magnetic remote. Spec sheets and photos show the two are almost indistinguishable except for the slightly wider body of the AM09, which accommodates the heating element. Both colourways are understated and suit most room styles.
 
 The build feels appropriately premium. Controls are the same minimal arrangement: power, airflow, oscillation, a timer and a temperature target dial accessed via the remote. The thermostat function is the key addition here. You set a target temperature and the AM09 heats or fans to maintain it, then cuts power when the room reaches that level. It is a sensible, hotel-room style of comfort control.
 
@@ -55,7 +55,7 @@ The sleep timer steps the fan down gradually before switching off, useful in bot
 
 If you genuinely use it year-round, yes. The AM09 effectively replaces a separate tower fan and a separate portable heater, both of which would cost money and take up storage. The thermostat makes it more economical than a basic fan heater in practice.
 
-If you only want summer cooling, the [Dyson AM07](/dyson-am07/) is the better choice at £100 less and loses nothing relevant. If your priority is quiet heating without the Dyson price, a conventional bladed tower fan plus a thermostat oil radiator is cheaper and arguably more effective at overnight heating.
+If you only want summer cooling, the [Dyson Cool AM07](/dyson-cool-am07/) is the better choice at £70 less and loses nothing relevant. If your priority is quiet heating without the Dyson price, a conventional bladed tower fan plus a thermostat oil radiator is cheaper and arguably more effective at overnight heating.
 
 For all fan heater options across the market, see our [best tower fan heaters](/best-tower-fan-heaters/) guide. For a wider view of the cooling range, the [Dyson tower fans](/dyson-tower-fans/) hub covers the full lineup.
 

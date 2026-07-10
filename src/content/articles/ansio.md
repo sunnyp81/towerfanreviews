@@ -1,7 +1,7 @@
 ---
 kind: review
 title: "ANSIO Tower Fan Review: Is It Worth £45 in 2026?"
-description: "ANSIO tower fan review. We test airflow, noise, oscillation and value to find out if this budget oscillating fan is a smart buy at around £45."
+description: "ANSIO tower fan review. We compare airflow, noise, oscillation and value to find out if this budget oscillating fan is a smart buy at around £45."
 h1: "ANSIO Tower Fan Review"
 heroEyebrow: "Budget oscillating tower fan review"
 productSlug: ansio

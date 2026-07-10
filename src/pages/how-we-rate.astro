@@ -1,0 +1,35 @@
+---
+import Base from '@layouts/Base.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { graph, breadcrumbSchema, canonical } from '@lib/seo';
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'How we rate', url: '/how-we-rate/' }];
+const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
+---
+<Base title="How We Rate Tower Fans" description="Our research method: how we use published specifications, verified owner reviews and running-cost maths to rate and rank tower fans in the UK." path="/how-we-rate/" schema={schema}>
+  <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-3xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">How we rate tower fans</h1><p class="mt-4 text-lg text-ink-500">The same research, applied to every fan, so our rankings are fair and comparable.</p></div></section>
+  <div class="mx-auto max-w-3xl px-4 py-12 prose-tf">
+    <div class="not-prose rounded-xl border border-breeze-200 bg-mist/60 p-5 mb-8">
+      <p class="text-sm text-ink-700 leading-relaxed"><strong>We do not run a test lab.</strong> We are a small independent site, and we think you deserve to know exactly what our ratings are based on. We do not claim to have measured airflow or decibels ourselves, and we never present manufacturer figures as our own readings.</p>
+    </div>
+
+    <p>Every fan we rate is assessed the same way, using three sources: the manufacturer's published specifications, verified owner reviews gathered at scale from UK retailers, and running costs we calculate ourselves from each fan's rated power draw.</p>
+
+    <h2>Published specifications</h2>
+    <p>We record rated power draw, height, speed settings, oscillation angle, timer options and stated noise figures from the manufacturer. Where a manufacturer quotes a noise level, we say so and attribute it. Quoted figures are measured in conditions that rarely match a bedroom, so we treat them as a starting point rather than a verdict.</p>
+
+    <h2>Verified owner reviews</h2>
+    <p>Spec sheets do not tell you that a fan rattles in its second summer. Owner reviews do. We read through verified-purchase reviews across UK retailers, looking for the complaints that repeat: bearing noise developing over time, remotes that need line of sight, displays too bright for a bedroom, flimsy bases on carpet. A fault that appears once is noise. A fault that appears in dozens of reviews is a pattern, and it affects our rating.</p>
+
+    <h2>Running cost</h2>
+    <p>This is the one number we work out ourselves, because it is arithmetic rather than measurement. We take the fan's rated wattage, apply the current Ofgem price cap unit rate for electricity, and calculate pence per hour and the cost of running the fan overnight. The maths is shown on our <a href="/tower-fan-running-cost/">tower fan running cost</a> page so you can check it.</p>
+
+    <h2>Features and usability</h2>
+    <p>Timers, remotes, app control, sleep modes, display dimming and ease of cleaning all feed into the rating, judged from the specification and from what owners say about living with them.</p>
+
+    <h2>Our ratings</h2>
+    <p>Each fan gets a star rating out of five. It is an editorial judgement, formed from the three sources above and weighted towards the things most people care about: cooling, noise and value. It is our opinion, not a laboratory result. We revisit ratings as prices move and as new owner feedback accumulates.</p>
+
+    <h2>How we make money</h2>
+    <p>We earn a commission when you buy through our links, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. No manufacturer pays for a place in our rankings, and no manufacturer sees a review before it is published. If a fan is poor value we say so, because a recommendation you cannot trust is worth nothing to either of us.</p>
+  </div>
+</Base>

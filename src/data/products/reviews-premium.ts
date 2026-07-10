@@ -1,47 +1,9 @@
 import type { Product } from '../products';
 
+// `dyson-am07` was removed: it duplicated `dyson-cool-am07` in src/data/products/dyson.ts
+// (same physical fan, listed twice at £300 and £330). /dyson-am07/ now 301s to
+// /dyson-cool-am07/, which is the URL Google already prefers.
 export const products: Product[] = [
-  {
-    slug: 'dyson-am07',
-    name: 'Dyson AM07',
-    brand: 'Dyson',
-    category: ['best', 'bladeless', 'quiet', 'premium', 'remote'],
-    illustration: 'bladeless',
-    priceGBP: 300,
-    rating: 4.4,
-    ratingBreakdown: [
-      { label: 'Airflow', score: 4.3 },
-      { label: 'Noise', score: 4.6 },
-      { label: 'Features', score: 4.1 },
-      { label: 'Value', score: 3.6 },
-    ],
-    pros: [
-      'Smooth, even airflow with no blade chop sensation',
-      'Quiet enough for bedrooms on lower settings',
-      'No exposed blades, safe for children and pets',
-      'Magnetic remote stores tidily on the loop',
-      'Elegant design that suits any room',
-    ],
-    cons: [
-      'Premium price versus equally capable bladed fans',
-      'No heating element or air purification',
-      'Top two speeds can be intrusive',
-    ],
-    bestFor: 'Design-led buyers who want quiet, safe, fuss-free summer cooling',
-    verdict:
-      'The AM07 is Dyson\'s most refined cooling fan: beautifully built, genuinely quiet at low speeds and effortless to clean. You pay a clear premium, but nothing else feels this polished.',
-    award: 'Best Bladeless',
-    specs: [
-      { label: 'Type', value: 'Bladeless' },
-      { label: 'Speeds', value: '10' },
-      { label: 'Oscillation', value: 'Yes (70°)' },
-      { label: 'Remote', value: 'Yes' },
-      { label: 'Timer', value: 'Sleep timer' },
-      { label: 'Power', value: '~26-40W' },
-      { label: 'Height', value: '100 cm' },
-    ],
-    hasReview: true,
-  },
   {
     slug: 'dyson-hot-cool',
     name: 'Dyson Hot+Cool AM09',

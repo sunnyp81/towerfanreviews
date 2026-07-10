@@ -1,7 +1,7 @@
 ---
 import Base from '@layouts/Base.astro';
 import Breadcrumbs from '@components/Breadcrumbs.astro';
-import { SITE, graph, breadcrumbSchema, canonical } from '@lib/seo';
+import { SITE, GA4_ID, graph, breadcrumbSchema, canonical } from '@lib/seo';
 const crumbs = [{ name: 'Home', url: '/' }, { name: 'Privacy & disclosure', url: '/privacy/' }];
 const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
 ---
@@ -15,7 +15,9 @@ const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: ca
     <h2>What data we collect</h2>
     <p>If you contact us or join our newsletter, we collect the details you provide (such as your name and email) solely to respond to you or send the updates you asked for. You can unsubscribe at any time using the link in any email. We do not sell your personal data.</p>
     <h2>Analytics</h2>
-    <p>We use privacy-respecting analytics to understand which pages are useful and improve the site. This data is aggregated and not used to identify you personally.</p>
+    {GA4_ID
+      ? <p>We use Google Analytics to understand which pages are useful and improve the site. It sets cookies and collects aggregated usage data. We do not use it to identify you personally. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out add-on</a>.</p>
+      : <p>We do not run any analytics or tracking scripts on this site, and we set no analytics cookies.</p>}
     <h2>Contact</h2>
     <p>Questions about this policy? <a href="/contact/">Get in touch</a>.</p>
   </div>

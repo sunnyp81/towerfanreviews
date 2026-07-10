@@ -23,12 +23,17 @@
   --color-ink-900: #0b1f28;
   --color-ink-700: #243b45;
   --color-ink-500: #4a5c64;
-  --color-ink-400: #6b7c84;
+  /* ink-400 was #6b7c84 (4.20:1 on frost) which failed WCAG AA for text under 18px. */
+  --color-ink-400: #5a6d76;
 
-  /* Accent — heat/CTA (sunset orange: cool product vs the heat it fights) */
+  /* Accent — heat/CTA (sunset orange: cool product vs the heat it fights).
+     400/500 are decorative only: white text on them fails AA (2.59:1 / 3.24:1).
+     Use heat-600 (4.65:1) or heat-700 (5.32:1) behind white text, and heat-700 for
+     orange text on white. */
   --color-heat-400: #ff7a45;
   --color-heat-500: #f9591f;
-  --color-heat-600: #e6440c;
+  --color-heat-600: #d1430c;
+  --color-heat-700: #c23c09;
 
   /* Gold — rating stars */
   --color-gold-400: #fbbf24;
@@ -124,17 +129,20 @@ h1, h2, h3, h4, h5 {
   font-weight: 600; border-radius: 0.75rem; padding: 0.8rem 1.4rem; line-height: 1;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; }
 .btn:active { transform: translateY(1px) scale(0.99); }
-.btn-cta { background: linear-gradient(180deg, var(--color-heat-400), var(--color-heat-500));
+.btn-cta { background: linear-gradient(180deg, var(--color-heat-600), var(--color-heat-700));
   color: #fff; box-shadow: 0 4px 14px rgba(249, 89, 31, 0.28); }
 .btn-cta:hover { box-shadow: var(--shadow-glow); transform: translateY(-2px); }
 .btn-breeze { background: var(--color-breeze-600); color: #fff; }
 .btn-breeze:hover { background: var(--color-breeze-700); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(8, 131, 163, 0.28); }
-.btn-ghost { background: #fff; color: var(--color-breeze-700); border: 1px solid var(--color-breeze-200); }
-.btn-ghost:hover { border-color: var(--color-breeze-400); background: var(--color-breeze-50); }
+.btn-ghost { background: #fff; color: var(--color-breeze-700); border: 1px solid var(--color-breeze-600); }
+.btn-ghost:hover { border-color: var(--color-breeze-700); background: var(--color-breeze-50); }
 
-/* ---- Focus visibility (a11y) ---- */
-a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
-  outline: 3px solid var(--color-breeze-400);
+/* ---- Focus visibility (a11y) ----
+   breeze-700 (6.30:1 on white) not breeze-400 (2.03:1), which failed WCAG 1.4.11.
+   The !important beats Tailwind's `focus:outline-none` (higher specificity) that
+   would otherwise strip the ring off form inputs entirely. */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--color-breeze-700) !important;
   outline-offset: 2px;
   border-radius: 4px;
 }
@@ -147,7 +155,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .prose-tf ul, .prose-tf ol { margin: 1.1rem 0; padding-left: 1.4rem; color: var(--color-ink-700); line-height: 1.7; }
 .prose-tf li { margin: 0.4rem 0; }
 .prose-tf a { color: var(--color-breeze-700); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
-.prose-tf a:hover { color: var(--color-heat-500); }
+.prose-tf a:hover { color: var(--color-heat-700); }
 .prose-tf strong { color: var(--color-ink-900); font-weight: 650; }
 .prose-tf blockquote { border-left: 4px solid var(--color-breeze-400); padding: 0.4rem 0 0.4rem 1.2rem; margin: 1.6rem 0; color: var(--color-ink-700); font-style: italic; background: var(--color-breeze-50); border-radius: 0 0.5rem 0.5rem 0; }
 .prose-tf img { border-radius: var(--radius-xl); box-shadow: var(--shadow-card); }

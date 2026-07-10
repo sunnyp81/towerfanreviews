@@ -18,7 +18,7 @@ faqs:
   - q: "Do bladeless fans really have no blades?"
     a: "No, bladeless fans still have an internal impeller or motor that draws air in at the base. The name refers to the fact that there are no exposed rotating blades on the outside. Air is then pushed through a narrow slot in the loop amplifier, which accelerates and smooths the airflow. The mechanism is safer to touch, not truly blade-free."
   - q: "Are Dyson bladeless fans worth the money?"
-    a: "If you prioritise ultra-quiet operation, a premium finish and a no-service guarantee, yes. Dyson bladeless fans are genuinely quieter and better built than budget alternatives. However, a mid-range Silvercrest bladeless model costs a fraction of the price and delivers comparable cooling for most rooms. Spend more if noise and longevity are paramount."
+    a: "If you prioritise ultra-quiet operation, a premium finish and a no-service guarantee, yes. Owner reviews consistently rate Dyson bladeless fans quieter and better built than budget alternatives. However, a mid-range Silvercrest bladeless model costs a fraction of the price and delivers comparable cooling for most rooms. Spend more if noise and longevity are paramount."
   - q: "Can bladeless tower fans purify the air as well?"
     a: "Some can. The Dyson Purifier Cool combines a HEPA and activated carbon filter with the fan, removing allergens, dust and some VOCs from the room air. Standard bladeless fans without a filter simply circulate air. If you have allergies or live in a polluted area, a combined purifier-fan is worth the premium."
   - q: "How do I clean a bladeless tower fan?"
@@ -36,7 +36,7 @@ Bladeless tower fans have moved from novelty to mainstream. The technology has m
 
 ## How we chose these picks
 
-A bladeless fan has to earn its higher price tag. Our shortlist was built around three questions: does the airflow actually feel strong enough to cool a room, does it run quietly enough to use overnight without waking anyone, and is the build quality solid enough to justify the outlay? We also considered oscillation range, how easy the controls are to use and, for purifier models, how effective the filtration is in a realistic UK home environment.
+A bladeless fan has to earn its higher price tag. We compared spec sheets and owner reviews against three questions: does the rated airflow suggest it is strong enough to cool a room, do owners report it runs quietly enough to use overnight without waking anyone, and does build quality hold up well enough to justify the outlay? We also weighed oscillation range, how easy the controls are to use and, for purifier models, how effective the filtration is rated for a realistic UK home environment.
 
 ## What to look for in a bladeless tower fan
 
@@ -54,9 +54,9 @@ A bladeless fan has to earn its higher price tag. Our shortlist was built around
 
 The Dyson models are expensive, and there is no point pretending otherwise. What that money buys you is exceptional build quality, near-silent operation on low settings, a well-designed app and the Dyson service network. For many people those are worth it.
 
-Budget bladeless fans from brands like Silvercrest have closed the gap considerably on cooling performance. You may notice a little more mechanical noise on higher speeds, and the materials feel less premium in the hand, but the airflow is real and the safety benefit is identical. If you are buying primarily for safety around children and can live without whisper-quiet operation, the [Silvercrest bladeless tower fan](/silvercrest-bladeless-tower-fan/) is a smart purchase at a fraction of the Dyson price.
+Budget bladeless fans from brands like Silvercrest have closed the gap considerably on cooling performance. Owners note a little more mechanical noise on higher speeds, and plainer materials, but the airflow is real and the safety benefit is identical. If you are buying primarily for safety around children and can live without whisper-quiet operation, the [Silvercrest bladeless tower fan](/silvercrest-bladeless-tower-fan/) is a smart purchase at a fraction of the Dyson price.
 
-For buyers who also want air purification, the Dyson Purifier Cool adds a HEPA and activated carbon filter to the bladeless formula, which is particularly useful for hay fever sufferers. The [Dyson AM07](/dyson-am07/) sits between these two in terms of features: bladeless cooling with Dyson's build quality but without the purifier premium.
+For buyers who also want air purification, the Dyson Purifier Cool adds a HEPA and activated carbon filter to the bladeless formula, which is particularly useful for hay fever sufferers. If you only need cooling, the [Dyson Cool AM07](/dyson-cool-am07/) covers that without the purifier premium.
 
 At the entry level, the [Vortex Air Pro](/vortex-air-pro/) is the cheapest bladeless tower fan we would recommend at around £40. It is not in the same league as a Dyson for airflow or noise, but for a child's bedroom or a small study where the priority is safe, blade-free cooling on a tight budget, it does the job.
 

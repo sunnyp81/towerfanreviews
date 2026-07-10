@@ -18,7 +18,7 @@ Old WP+Ezoic site was effectively dead: ~1,100 impressions / **2 clicks in 3 mon
 - **CONTENT-GUIDE.md** = the rules + master slug registry used to brief content agents. Read it before adding pages.
 
 ## Scale (built)
-52 pages: home + 7 pillars/roundups + 7 brand hubs + ~23 model reviews + 8 guides + 5 static. 23 products. All JSON-LD valid, no thin pages.
+53 pages built / 51 in sitemap (`/404/` and `/thank-you/` excluded): home + 7 roundups + 7 brand hubs + 21 model reviews + 9 guides + static. 22 products (was 23; the duplicate `dyson-am07` was merged into `dyson-cool-am07`). All JSON-LD valid, no thin pages.
 
 ## Monetisation
 - Amazon affiliate (tag `towerfan-21`) — product cards/tables/CTAs, `rel="nofollow sponsored noopener noreferrer"`.
@@ -27,8 +27,25 @@ Old WP+Ezoic site was effectively dead: ~1,100 impressions / **2 clicks in 3 mon
 
 ## RULES
 - **British English. NO em/en dashes (— –) anywhere** in user-facing content. (Scan: `grep -rn $'[—–]' src/content src/data src/pages src/components`.)
-- Affiliate honesty: no fabricated lab measurements; realistic spec ranges only.
+- 🔴 **We do NOT run a test lab.** Never write "we tested", "we measured", "hands-on", "our lab", "real UK homes", or invent hours-of-testing / dB / airflow figures. The site rates fans on published specs + verified owner reviews + running costs calculated from rated wattage. Canonical statement of method: `/how-we-rate/` (`src/pages/how-we-rate.astro`). Allowed verbs: compared, ranked, calculated, weighed up; "owners report", "the manufacturer quotes".
+- Hero stats on the homepage are **counted from data**, never asserted. Do not hardcode them.
+- Affiliate disclosure must render **before the first affiliate link** (`[...slug].astro`, gated on `hasAffiliateLinks`), not just in the footer. ASA/CAP + Amazon Associates require this.
+- Contrast: white text needs `heat-600`/`heat-700` behind it (`heat-400`/`heat-500` fail WCAG AA). Orange **text** on white must be `heat-700`.
+- `ADS_ENABLED` in `src/lib/seo.ts` gates `AdSlot`. Keep false until an ad network is actually wired, or empty "Advertisement" boxes ship to users.
+- `GA4_ID` reads `PUBLIC_GA4_ID` from the build env. `privacy.astro` branches on it, so the privacy policy can never claim analytics we do not run.
 - Run `npm run build` before shipping. Don't run concurrent builds (dist race).
+
+## Audit + fix pass, 2026-07-10 (Opus, multi-agent)
+Full UX/content/SEO audit and remediation. **Not yet deployed at time of writing: needs `git push` (auto-deploys).**
+Fixed: sitewide fabricated testing claims (incl. homepage "120+ hours of testing" and `Review` schema rating fiction) rewritten as research-led; `/how-we-test/` renamed `/how-we-rate/` (301); duplicate Dyson AM07 review + product entry merged into `dyson-cool-am07` (301) and price contradictions (£300 vs £330) resolved; all 9 `kind: guide` pages given `items:` product picks so they finally monetise (incl. `/used-on-its-side/`, the top page, which earned £0 on 372 impressions); affiliate disclosure moved above first CTA; empty "Advertisement" placeholders gated off; CTA/badge/meta-text/focus-ring contrast fixed to WCAG AA; comparison-table scroll region made keyboard reachable; `BreadcrumbList` self-collision on `/best-tower-fans/` fixed; Google Fonts self-hosted via `@fontsource` (was render-blocking third-party); `/thank-you/` page added + excluded from sitemap; footer heading-order skip fixed; Shark/Silvercrest/mini/where-to-buy added to footer links.
+
+### 🔴 Open items that CANNOT be fixed from this repo
+1. **Cloudflare is injecting a managed robots.txt** that `Disallow: /` for GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, Amazonbot, CCBot, Bytespider, meta-externalagent, and sets `Content-Signal: ai-train=no`. It is prepended to our own file, which Allows them all, so the live file self-contradicts. This blocks the AI-citation strategy and blocks Amazon's own crawler on an Amazon affiliate site. Fix in CF dashboard: zone `towerfanreviews.uk` → AI Crawl Control / managed robots.txt → stop injecting, or allow-list those agents.
+2. **`www.towerfanreviews.uk` and `towerfanreviews.pages.dev` both serve 200**, byte-identical to apex, with no 301. Canonicals point to apex so Google should consolidate, but add a CF Redirect Rule (Pages `_redirects` is path-only, cannot do host).
+3. **0 of 22 products have an `asin`**, so every "Check price on Amazon" button goes to a tagged Amazon **search results page**, not the product. Biggest single conversion lever on the site. Backfill `asin:` in `src/data/products/*.ts`; `affiliateUrl()` already prefers `/dp/{asin}`. Start with `dimplex-dxmbcf`, `dyson-cool-am07`, `vortex-air-pro`, `dimplex-mont-blanc`, `igenix-df0030-oscillating-tower-fan` (the pages with impressions).
+4. **No GA4 property exists for this site.** Set `PUBLIC_GA4_ID` in the CF Pages build env to switch analytics + the privacy policy paragraph on together.
+5. **Hardcoded `priceGBP` + prices in prose.** Amazon's Operating Agreement expects prices sourced live from PA-API. ~30 static prices across `src/data/products/` and article bodies. Decide: strip numeric prices in favour of bands, or wire PA-API.
+6. **StaticForms key `sf_9e906eb6c00416b9d3354749` is in client HTML** on every page (`EmailCapture.astro`, `contact.astro`). Treat as public; rotate if it ever gates anything.
 
 ## DEPLOY — ✅ LIVE on towerfanreviews.uk (Jun 26)
 - **GitHub:** `github.com/sunnyp81/towerfanreviews` (public, `master`). Pushed.

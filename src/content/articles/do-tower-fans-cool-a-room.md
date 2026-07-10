@@ -4,6 +4,9 @@ title: "Do Tower Fans Actually Cool a Room?"
 description: "Tower fans cool people, not rooms. We explain the science, why it still works, and how to get the most out of a fan on a hot night in a UK home."
 h1: "Do Tower Fans Actually Cool a Room?"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - meacofan-1056
 updatedDate: 2026-06-21
 featured: false
 faqs:
@@ -71,7 +74,7 @@ For typical UK summer conditions (20-30 degrees), a tower fan is usually suffici
 
 For personal cooling (a bedroom, a desk), almost any tower fan will do the job. For a larger room or for general household comfort, look for models with wide oscillation (90 degrees or more) and a good range of low speeds. Quiet operation on low settings matters more than peak airflow.
 
-See [best quiet tower fans](/best-quiet-tower-fans/) if noise is a concern for sleeping, or [best tower fans](/best-tower-fans/) for a full rundown of tested picks. If you are buying specifically for budget and running costs, the [best cheap tower fans](/best-cheap-tower-fans/) roundup covers the most efficient options. For a quick comparison between a tower fan and a standing pedestal fan, see [tower fan vs pedestal fan](/tower-fan-vs-pedestal-fan/).
+See [best quiet tower fans](/best-quiet-tower-fans/) if noise is a concern for sleeping, or [best tower fans](/best-tower-fans/) for a full rundown of ranked picks. If you are buying specifically for budget and running costs, the [best cheap tower fans](/best-cheap-tower-fans/) roundup covers the most efficient options. For a quick comparison between a tower fan and a standing pedestal fan, see [tower fan vs pedestal fan](/tower-fan-vs-pedestal-fan/).
 
 ## The honest answer
 

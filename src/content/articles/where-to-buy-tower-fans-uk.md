@@ -4,6 +4,10 @@ title: "Where to Buy a Tower Fan in the UK (2026)"
 description: "Where to buy a tower fan in the UK in 2026 - Argos, Currys, B&M, Amazon, Dunelm, Lidl and more. What each retailer is good for and when to buy."
 h1: "Where to Buy a Tower Fan in the UK"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - meacofan-1056
+  - dyson-cool-am07
 updatedDate: 2026-06-21
 featured: false
 faqs:
@@ -93,4 +97,4 @@ The single most useful piece of advice: do not wait until you are hot. Buy in sp
 
 During a heatwave, stock across every retailer thins within hours. Delivery times stretch to a week or more. Prices on the remaining stock can creep up. If you see a forecast of prolonged heat in April or May, that is the moment to buy.
 
-See [best cheap tower fans](/best-cheap-tower-fans/) for the best budget options across retailers, or [best tower fans](/best-tower-fans/) for the full tested range. The [tower fan buying guide](/tower-fan-buying-guide/) covers what to look for before committing.
+See [best cheap tower fans](/best-cheap-tower-fans/) for the best budget options across retailers, or [best tower fans](/best-tower-fans/) for the full ranked range. The [tower fan buying guide](/tower-fan-buying-guide/) covers what to look for before committing.

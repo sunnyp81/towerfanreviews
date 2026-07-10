@@ -38,7 +38,7 @@ A remote control might seem like a minor convenience, but once you have used a t
 
 ## How we chose these picks
 
-We looked beyond simply whether a remote was included and assessed how good it actually is. Key factors: how many functions are accessible via the remote (speed, oscillation, timer, power, mode), the range at which it reliably works, whether it requires line of sight, and whether the buttons are large enough and logically laid out to use in the dark. For models with app control, we assessed whether the app added genuine functionality or was just a checkbox feature.
+We looked beyond simply whether a remote was included and compared how good it actually is, using spec sheets and owner reviews. Key factors: how many functions are accessible via the remote (speed, oscillation, timer, power, mode), the range at which it reliably works, whether it requires line of sight, and whether the buttons are large enough and logically laid out to use in the dark. For models with app control, we weighed owner feedback on whether the app added genuine functionality or was just a checkbox feature.
 
 We also cross-referenced with the fan's overall performance, because a good remote does not compensate for a fan that barely moves air.
 

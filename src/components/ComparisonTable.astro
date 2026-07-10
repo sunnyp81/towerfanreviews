@@ -9,7 +9,9 @@ for (const p of products) for (const s of p.specs) if (!labels.includes(s.label)
 const specLabels = (Astro.props.specLabels ?? labels).slice(0, 5);
 const valueOf = (p: Product, label: string) => p.specs.find((s) => s.label === label)?.value ?? '-';
 ---
-<div class="tf-table-wrap not-prose">
+{/* tabindex + role make the horizontal scroll area reachable by keyboard: below ~560px
+    the Price and Buy columns are otherwise unreachable without a pointer. */}
+<div class="tf-table-wrap not-prose" tabindex="0" role="region" aria-label={caption ?? 'Tower fan comparison'}>
   <table class="tf-table">
     {caption && <caption class="sr-only">{caption}</caption>}
     <thead>
@@ -25,14 +27,14 @@ const valueOf = (p: Product, label: string) => p.specs.find((s) => s.label === l
       {products.map((p) => (
         <tr>
           <th scope="row" class="!text-left font-display font-semibold text-ink-900">
-            {p.award && <span class="block text-[0.65rem] font-semibold uppercase tracking-wide text-heat-500">{p.award}</span>}
-            {p.hasReview ? <a href={`/${p.slug}/`} class="text-breeze-700 hover:text-heat-500">{p.name}</a> : p.name}
+            {p.award && <span class="block text-[0.65rem] font-semibold uppercase tracking-wide text-heat-700">{p.award}</span>}
+            {p.hasReview ? <a href={`/${p.slug}/`} class="text-breeze-700 hover:text-heat-700">{p.name}</a> : p.name}
           </th>
           <td><RatingStars rating={p.rating} size="sm" /></td>
           {specLabels.map((l) => <td>{valueOf(p, l)}</td>)}
           <td class="whitespace-nowrap font-semibold text-ink-900">{p.priceGBP ? `~£${p.priceGBP}` : '-'}</td>
           <td>
-            <a href={affiliateUrl(p)} target="_blank" rel="nofollow sponsored noopener noreferrer" class="btn btn-cta !px-3 !py-2 text-sm whitespace-nowrap">Check price</a>
+            <a href={affiliateUrl(p)} target="_blank" rel="nofollow sponsored noopener noreferrer" class="btn btn-cta !px-4 !py-3 text-sm whitespace-nowrap">Check price<span class="sr-only"> for {p.name} on Amazon (opens in a new tab)</span></a>
           </td>
         </tr>
       ))}

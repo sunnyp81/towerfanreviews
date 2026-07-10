@@ -1,7 +1,7 @@
 ---
 kind: review
 title: "VonHaus Tower Fan Review: Best Budget Fan in 2026?"
-description: "VonHaus tower fan review covering airflow, breeze modes, noise and value at around £40. We test whether this UK brand budget fan is the best buy at the price."
+description: "VonHaus tower fan review covering airflow, breeze modes, noise and value at around £40. We weigh up whether this UK brand budget fan is the best buy at the price."
 h1: "VonHaus Tower Fan Review"
 heroEyebrow: "Budget tower fan review"
 productSlug: vonhaus

@@ -29,7 +29,7 @@ The DXMBCF is the brand's entry-level cooling tower fan, aimed squarely at buyer
 
 ## Design and build quality
 
-The DXMBCF stands at around 82 cm, compact enough for most bedrooms and home offices. The plain dark finish suits most rooms without drawing attention, and the overall construction feels solid rather than flimsy. Dimplex's build standards show in the finish: there is no flexing in the casing and the joints are tight.
+The DXMBCF stands at around 82 cm, compact enough for most bedrooms and home offices. The plain dark finish suits most rooms without drawing attention, and owners describe the construction as solid rather than flimsy, with no flexing in the casing and tight joints.
 
 Controls are simple: a button on the unit cycles through the three speed settings and toggles oscillation on or off. There is no display, just a couple of indicator lights. That simplicity is a practical advantage if you want a fan you can operate without reading the manual, though it does mean walking to the unit every time you want to change the speed.
 

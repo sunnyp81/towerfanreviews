@@ -2,6 +2,12 @@
 # Preserves ~30k indexed impressions from the old WP site onto the closest new page.
 # Pages that keep the same slug (e.g. /dyson-cool-am07/, /seville/, /ansio/) need no entry.
 
+# --- Consolidation of our own pages ---
+# Duplicate review of the same physical fan (Dyson AM07), merged into the URL
+# Google already prefers. Methodology page renamed: we do not run a test lab.
+/dyson-am07/                               /dyson-cool-am07/               301
+/how-we-test/                              /how-we-rate/                   301
+
 # --- High-impression brand/model pages ---
 /dyson-pure-cool/                          /dyson-tower-fans/               301
 /dimplex-mont-blanc-cooling-fan-review/    /dimplex-mont-blanc/            301

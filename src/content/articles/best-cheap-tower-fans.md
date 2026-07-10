@@ -40,9 +40,9 @@ You do not need to spend a lot of money to keep a room comfortable. The market f
 
 ## How we chose these picks
 
-Budget fans are where specification sheet claims diverge most sharply from real-world performance. We prioritised three things: does it actually move enough air to cool a medium-sized room, does the oscillation function reliably over sustained use, and are the controls straightforward enough to use without reading the manual? We also looked at warranty terms and the reliability of the brand's UK customer service, because a fan that fails in August and takes three weeks to replace is not a bargain.
+Budget fans are where specification sheet claims diverge most sharply from real-world performance, so we lean on verified owner reviews to close that gap. We compared three things: does the rated airflow and owner feedback suggest it actually moves enough air to cool a medium-sized room, do owners report the oscillation holding up reliably over sustained use, and are the controls straightforward enough to use without reading the manual? We also checked warranty terms and the reliability of the brand's UK customer service, because a fan that fails in August and takes three weeks to replace is not a bargain.
 
-We excluded models that generated strong owner complaints about oscillation motors failing within the first season, even where the airflow was acceptable.
+We ruled out models that generated strong owner complaints about oscillation motors failing within the first season, even where the specified airflow was acceptable.
 
 ## What to look for in a budget tower fan
 
@@ -58,11 +58,11 @@ We excluded models that generated strong owner complaints about oscillation moto
 
 ## Where to find genuine value: the sensible budget brackets
 
-**Under £40:** Oscillation and timer are often absent or limited. Useful for desk or personal use, less useful for room cooling. The [Pifco tower fan](/pifco/) and [Igenix DF0030](/igenix-df0030-oscillating-tower-fan/) are reliable at this price point, with the Igenix being a particularly consistent performer for basic room cooling.
+**Under £40:** Oscillation and timer are often absent or limited. Useful for desk or personal use, less useful for room cooling. The [Pifco tower fan](/pifco/), [Igenix DF0030](/igenix-df0030-oscillating-tower-fan/) and [Netta tower fan](/netta/) are reliable at this price point, with the Igenix being a particularly consistent performer for basic room cooling.
 
-**£40-55:** The strongest value bracket. Most major budget brands offer their best models here: full oscillation, 3-6 speeds, a timer and often a basic remote. This is where the [Mylek](/mylek/), [Ansio](/ansio/) and [Vonhaus tower fan](/vonhaus/) models compete strongly. The [Netta tower fan](/netta/) is also worth considering at this price if you want a slightly taller footprint.
+**£40-55:** The strongest value bracket. Most major budget brands offer their best models here: full oscillation, 3-6 speeds, a timer and often a basic remote. This is where the [Mylek](/mylek/), [Ansio](/ansio/), [Vonhaus tower fan](/vonhaus/) and [Vortex Air Pro](/vortex-air-pro/) models compete strongly.
 
-**£55-70:** You start to pick up wider oscillation angles, more speed settings and better build quality. The [Vortex Air Pro](/vortex-air-pro/) sits in this range and offers genuinely mid-range performance at a near-budget price.
+**£55-70:** You start to pick up wider oscillation angles, more speed settings and better build quality, though none of our top picks below need to stretch this far to perform well.
 
 Above £70, you are entering mid-range territory where brands like Dreo and Levoit compete, and the performance difference becomes noticeable. If your budget stretches to £80-100, visiting our full [best tower fans](/best-tower-fans/) roundup is worthwhile before committing.
 

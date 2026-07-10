@@ -1,8 +1,16 @@
 ---
+// Fonts are self-hosted: the previous fonts.googleapis.com <link rel=stylesheet>
+// was render-blocking on a third-party origin, with a second hop to fonts.gstatic.com.
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/sora/600.css';
+import '@fontsource/sora/700.css';
+import '@fontsource/sora/800.css';
 import '../styles/global.css';
 import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
-import { SITE, canonical } from '@lib/seo';
+import { SITE, GA4_ID, canonical } from '@lib/seo';
 
 interface Props {
   title: string;
@@ -37,11 +45,6 @@ const og = ogImage ?? '/og-default.png';
   {noindex && <meta name="robots" content="noindex, follow" />}
   <meta name="theme-color" content="#06a4c4" />
 
-  <!-- Fonts: preconnect + display swap -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" />
-
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={SITE.name} />
@@ -59,7 +62,27 @@ const og = ogImage ?? '/og-default.png';
   <link rel="sitemap" href="/sitemap-index.xml" />
 
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
-</head>
+
+  {GA4_ID && (
+    <Fragment>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+      <script is:inline define:vars={{ GA4_ID }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', GA4_ID, { anonymize_ip: true });
+      </script>
+    </Fragment>
+  )}
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ0N4L2LC8"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DQ0N4L2LC8');
+    </script>
+  </head>
 <body class="min-h-screen flex flex-col bg-frost">
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-3 focus:left-3 focus:bg-white focus:px-4 focus:py-2 focus:rounded-lg focus:shadow-lift focus:text-breeze-700 focus:font-semibold">Skip to content</a>
   <Header />

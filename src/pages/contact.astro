@@ -6,17 +6,19 @@ const crumbs = [{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact/' 
 const schema = graph(breadcrumbSchema(crumbs.map((c) => ({ name: c.name, url: canonical(c.url) }))));
 const ACCESS_KEY = 'sf_9e906eb6c00416b9d3354749';
 ---
-<Base title="Contact Tower Fan Reviews" description="Get in touch with Tower Fan Reviews. Suggest a tower fan for us to test, report an out-of-date price, or ask any question about choosing or using a tower fan." path="/contact/" schema={schema}>
-  <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-2xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">Contact us</h1><p class="mt-4 text-lg text-ink-500">Suggest a fan to test, flag an out-of-date price, or ask us anything about tower fans.</p></div></section>
+<Base title="Contact Tower Fan Reviews" description="Get in touch with Tower Fan Reviews. Suggest a tower fan for us to cover, report an out-of-date price, or ask any question about choosing or using a tower fan." path="/contact/" schema={schema}>
+  <section class="bg-breeze-mesh border-b border-breeze-100"><div class="mx-auto max-w-2xl px-4 pt-6 pb-10"><Breadcrumbs crumbs={crumbs} /><h1 class="mt-5 text-4xl sm:text-5xl">Contact us</h1><p class="mt-4 text-lg text-ink-500">Suggest a fan to cover, flag an out-of-date price, or ask us anything about tower fans.</p></div></section>
   <div class="mx-auto max-w-2xl px-4 py-12">
+    <h2 class="text-2xl mb-4">Send us a message</h2>
     <form action="https://api.staticforms.xyz/submit" method="POST" class="grid gap-4 rounded-2xl border border-breeze-100 bg-white p-6 shadow-card">
       <input type="hidden" name="accessKey" value={ACCESS_KEY} />
       <input type="hidden" name="subject" value="towerfanreviews.uk contact form" />
       <input type="hidden" name="$site" value="towerfanreviews.uk" />
+      <input type="hidden" name="redirectTo" value="https://towerfanreviews.uk/thank-you/" />
       <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
-      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="name">Name</label><input id="name" name="name" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:outline-none focus:border-breeze-400" /></div>
-      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="email">Email</label><input id="email" type="email" name="email" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:outline-none focus:border-breeze-400" /></div>
-      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="message">Message</label><textarea id="message" name="message" rows="5" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:outline-none focus:border-breeze-400"></textarea></div>
+      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="name">Name</label><input id="name" name="name" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:border-breeze-700" /></div>
+      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="email">Email</label><input id="email" type="email" name="email" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:border-breeze-700" /></div>
+      <div><label class="block text-sm font-medium text-ink-700 mb-1" for="message">Message</label><textarea id="message" name="message" rows="5" required class="w-full rounded-xl border border-breeze-100 px-4 py-3 focus:border-breeze-700"></textarea></div>
       <button type="submit" class="btn btn-cta justify-self-start">Send message</button>
     </form>
   </div>

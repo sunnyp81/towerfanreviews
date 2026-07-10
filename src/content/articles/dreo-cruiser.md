@@ -27,7 +27,7 @@ The Dreo Cruiser Pro is worth buying if you want a reliable remote-controlled to
 
 ## Design and build quality
 
-The Cruiser Pro has a slimmer footprint than the taller Pilot Max, which makes it a better fit for smaller rooms, bedrooms and offices where floor space is limited. The plastic chassis feels solid enough, without the premium texture of the more expensive Dreo models, and the base provides adequate stability on both hard floors and carpet.
+The Cruiser Pro has a slimmer footprint than the taller Pilot Max, which makes it a better fit for smaller rooms, bedrooms and offices where floor space is limited. Owners describe the plastic chassis as solid enough, without the premium texture of the more expensive Dreo models, and the base as stable on both hard floors and carpet.
 
 The on-unit controls are straightforward: a column of touch buttons for power, speed, mode and oscillation, plus a timer button. The remote is small and light, covering all the same functions. No LCD panel, no display lighting to worry about in a bedroom. The overall impression is of a no-nonsense appliance designed to be used, not admired.
 
@@ -39,7 +39,7 @@ In a living room larger than around 18-20 square metres, the Cruiser Pro starts 
 
 ## Noise
 
-The Cruiser Pro is reasonably settled on its lower three or four speeds, producing a steady motor note that sits acceptably in a living room. Above speed five the sound becomes clearly present rather than blending into ambient background noise: it has a slightly rougher motor character than the Pilot Max, which is audible side by side. Most people watching television will not find it intrusive, but light sleepers sharing a bedroom with it running above speed four may. For noise-sensitive overnight use, the [MeacoFan 1056](/meacofan-1056/) at a similar price is the better option.
+The Cruiser Pro is reasonably settled on its lower three or four speeds, producing a steady motor note that sits acceptably in a living room. Above speed five the sound becomes clearly present rather than blending into ambient background noise: it has a slightly rougher motor character than the Pilot Max, according to owners who have used both. Most people watching television will not find it intrusive, but light sleepers sharing a bedroom with it running above speed four may. For noise-sensitive overnight use, the [MeacoFan 1056](/meacofan-1056/) at a similar price is the better option.
 
 ## Running costs
 

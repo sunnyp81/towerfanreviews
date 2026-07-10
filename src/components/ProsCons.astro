@@ -10,7 +10,7 @@ const { pros, cons } = Astro.props;
     </h3>
     <ul class="mt-3 space-y-2">
       {pros.map((x) => (
-        <li class="flex gap-2 text-sm text-ink-700"><span class="text-emerald-600 mt-0.5">✓</span><span>{x}</span></li>
+        <li class="flex gap-2 text-sm text-ink-700"><span class="text-emerald-600 mt-0.5" aria-hidden="true">✓</span><span>{x}</span></li>
       ))}
     </ul>
   </div>
@@ -21,7 +21,7 @@ const { pros, cons } = Astro.props;
     </h3>
     <ul class="mt-3 space-y-2">
       {cons.map((x) => (
-        <li class="flex gap-2 text-sm text-ink-700"><span class="text-rose-500 mt-0.5">✕</span><span>{x}</span></li>
+        <li class="flex gap-2 text-sm text-ink-700"><span class="text-rose-500 mt-0.5" aria-hidden="true">✕</span><span>{x}</span></li>
       ))}
     </ul>
   </div>

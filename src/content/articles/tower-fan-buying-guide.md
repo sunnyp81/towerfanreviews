@@ -4,6 +4,10 @@ title: "Tower Fan Buying Guide: How to Choose (UK, 2026)"
 description: "A plain-English tower fan buying guide for UK homes, airflow, noise, oscillation, timers, running costs and which features are actually worth paying for."
 h1: "Tower Fan Buying Guide"
 heroEyebrow: "Buying guide"
+items:
+  - dyson-cool-am07
+  - dreo-pilot-max
+  - honeywell-hy254e-quietset
 updatedDate: 2026-06-21
 faqs:
   - q: "Do tower fans use a lot of electricity?"

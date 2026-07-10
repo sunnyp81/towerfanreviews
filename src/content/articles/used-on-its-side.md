@@ -4,6 +4,10 @@ title: "Can You Use a Tower Fan on Its Side? (What to Know)"
 description: "Most tower fans should not be laid on their side. We explain why, what breaks, what the exceptions are, and what to do instead."
 h1: "Can You Use a Tower Fan on Its Side?"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - honeywell-hy254e-quietset
+  - pifco
 updatedDate: 2026-06-21
 featured: false
 faqs:
@@ -67,16 +71,16 @@ If you need airflow at a low level or in a confined space where a tower fan cann
 
 **Pedestal fan** - A pedestal fan has an adjustable-height pole and a head that tilts. You can set the head low without tipping the whole unit. See our [tower fan vs pedestal fan](/tower-fan-vs-pedestal-fan/) guide for a full comparison.
 
-**Small tower fan** - If you want tower fan features in a smaller footprint, a mini tower fan (around 60-70cm) stands upright in tighter spots. See [best mini tower fans](/best-mini-tower-fans/).
+**Small tower fan** - If you want tower fan features in a smaller footprint, a mini tower fan (around 60-70cm) stands upright in tighter spots.
 
 ## If your fan has already been used on its side
 
-If you have already run a tower fan horizontally for a short period, switch it back upright immediately and listen carefully over the next few days. A faint new rattling or grinding sound means bearing damage has begun. A fan that rattles on its side but runs quietly again upright may still have some life left, but treat it as reduced-lifespan stock. See our guide to [why your tower fan is making a rattling noise](/why-making-noise-rattling/) for diagnosis steps.
+If you have already run a tower fan horizontally for a short period, switch it back upright immediately and listen carefully over the next few days. A faint new rattling or grinding sound means bearing damage has begun. A fan that rattles on its side but runs quietly again upright may still have some life left, but treat it as reduced-lifespan stock.
 
-If the noise persists when the fan is back upright, the bearing is already damaged. At that point, repair is rarely cost-effective on a budget model. Replacement is the practical answer.
+If the noise persists when the fan is back upright, the bearing is already damaged. At that point, repair is rarely cost-effective on a budget model. Replacement is the practical answer, and our guide to [why your tower fan is making a rattling noise](/why-making-noise-rattling/) sets out the diagnosis steps first.
 
 ## The short answer
 
 Stand it up. A tower fan is a tall, narrow product precisely because every part inside is built around that orientation. It is one of the few pieces of home kit where the shape and the function are inseparable. If your space genuinely cannot accommodate an upright fan, choose a product that is designed for the position you need rather than forcing one that is not.
 
-For help choosing a replacement, see our [tower fan buying guide](/tower-fan-buying-guide/) or browse our [best tower fans](/best-tower-fans/) picks.
+For help choosing a replacement, see our [tower fan buying guide](/tower-fan-buying-guide/).

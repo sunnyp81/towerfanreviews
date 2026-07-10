@@ -35,7 +35,7 @@ const hubFor = (b: string) => brandHubs.find((h) => (h.data.brand ?? '').toLower
             <div class="relative">
               <h2 class="text-2xl">{b}</h2>
               <p class="mt-1 text-sm text-ink-400">{count} {count === 1 ? 'model' : 'models'} reviewed</p>
-              {href && <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-breeze-700 group-hover:text-heat-500">View {b} fans →</span>}
+              {href && <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-breeze-700 group-hover:text-heat-700">View {b} fans →</span>}
             </div>
           </Tag>
         );

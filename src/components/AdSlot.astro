@@ -1,16 +1,20 @@
 ---
 // Reserved ad container, fixed min-height to avoid CLS when ads activate.
-// Wire Ezoic/AdSense later by injecting into [data-ad] slots.
+// Renders nothing until ADS_ENABLED is true, so no empty placeholder ships to users.
+// Wire Ezoic/AdSense by injecting into [data-ad] slots and flipping ADS_ENABLED.
+import { ADS_ENABLED } from '@lib/seo';
 interface Props { id: string; label?: string; format?: 'leaderboard' | 'rectangle' | 'inline'; }
 const { id, label = 'Advertisement', format = 'inline' } = Astro.props;
 const minH = format === 'leaderboard' ? 90 : format === 'rectangle' ? 250 : 120;
 ---
-<aside
-  class="not-prose my-8 grid place-items-center rounded-xl border border-dashed border-breeze-200 bg-mist/60 text-ink-400 text-xs"
-  style={`min-height:${minH}px`}
-  data-ad={id}
-  data-ad-format={format}
-  aria-label={label}
->
-  <span class="opacity-60">{label}</span>
-</aside>
+{ADS_ENABLED && (
+  <aside
+    class="not-prose my-8 grid place-items-center rounded-xl border border-dashed border-breeze-200 bg-mist/60 text-ink-400 text-xs"
+    style={`min-height:${minH}px`}
+    data-ad={id}
+    data-ad-format={format}
+    aria-label={label}
+  >
+    <span class="opacity-60">{label}</span>
+  </aside>
+)}

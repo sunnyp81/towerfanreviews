@@ -13,7 +13,7 @@ const topSpecs = p.specs.slice(0, 3);
     <span class="absolute left-4 top-4 z-10 rounded-full bg-breeze-900 text-white text-[0.7rem] font-display font-semibold uppercase tracking-wide px-3 py-1 shadow">{p.award}</span>
   )}
   {rank && (
-    <span class="absolute right-4 top-4 z-10 grid place-items-center w-9 h-9 rounded-full bg-heat-500 text-white font-display font-bold text-sm shadow-glow">{rank}</span>
+    <span class="absolute right-4 top-4 z-10 grid place-items-center w-9 h-9 rounded-full bg-heat-700 text-white font-display font-bold text-sm shadow-glow">{rank}</span>
   )}
 
   <div class="relative bg-breeze-mesh px-6 pt-8 pb-4 grid place-items-center">
@@ -48,7 +48,7 @@ const topSpecs = p.specs.slice(0, 3);
 
     <div class="mt-auto pt-3 flex flex-col gap-2">
       <AffiliateButton product={p} block />
-      {p.hasReview && <a href={`/${p.slug}/`} class="text-sm font-semibold text-breeze-700 hover:text-heat-500 text-center">Read full review →</a>}
+      {p.hasReview && <a href={`/${p.slug}/`} class="text-sm font-semibold text-breeze-700 hover:text-heat-700 text-center">Read full review →</a>}
     </div>
   </div>
 </article>

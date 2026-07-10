@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# AI crawlers welcome — we want to be cited
+# AI crawlers welcome: we want to be cited
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot

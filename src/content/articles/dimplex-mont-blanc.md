@@ -2,7 +2,7 @@
 kind: review
 title: "Dimplex Mont Blanc Review: Fan & Heater (2026)"
 description: "The Dimplex Mont Blanc does cooling in summer and heating in winter. We review its fan performance, heater output and whether it is worth the price."
-h1: "Dimplex Mont Blanc Cooling Tower Fan Review"
+h1: "Dimplex Mont Blanc Tower Fan & Heater Review"
 heroEyebrow: "Fan heater combo review"
 productSlug: dimplex-mont-blanc
 updatedDate: 2026-06-21

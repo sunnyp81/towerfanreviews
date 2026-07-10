@@ -36,7 +36,7 @@ Not every room needs a floor-standing tower fan, and not every desk has space fo
 
 ## How we chose these picks
 
-A mini fan that cannot generate a meaningful breeze is just decoration. We started by filtering out models whose airflow output was too weak to be felt at desk distance, then assessed noise, build quality and control usability. For a desk context, noise is particularly important: a fan that drowns out your concentration or makes calls difficult is counterproductive. Stability on a hard surface and the quality of any timer function were also weighted.
+A mini fan that cannot generate a meaningful breeze is just decoration. We ruled out models whose spec sheets and owner reviews pointed to airflow output too weak to be felt at desk distance, then compared noise, build quality and control usability. For a desk context, noise is particularly important: a fan that drowns out your concentration or makes calls difficult is counterproductive. Stability on a hard surface and the quality of any timer function were also weighted.
 
 ## What to look for in a mini tower fan
 

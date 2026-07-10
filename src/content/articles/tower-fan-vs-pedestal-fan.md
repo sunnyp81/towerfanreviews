@@ -4,6 +4,9 @@ title: "Tower Fan vs Pedestal Fan: Which Is Best in 2026?"
 description: "Tower fan or pedestal fan? We compare space, airflow, noise, looks and use cases to help you choose the right type for your UK home this summer."
 h1: "Tower Fan vs Pedestal Fan: Which Should You Buy?"
 heroEyebrow: "Tower fan guide"
+items:
+  - dreo-pilot-max
+  - meacofan-1056
 updatedDate: 2026-06-24
 featured: false
 faqs:
@@ -75,4 +78,4 @@ Choose a pedestal fan if: raw airflow is the priority, budget is tight, or you w
 
 For most UK bedrooms and living rooms, a tower fan is the more practical and better-looking choice. For a garage, workshop, office or large open-plan space, a pedestal fan delivers more value.
 
-See [best tower fans](/best-tower-fans/) for tested picks, or the [tower fan buying guide](/tower-fan-buying-guide/) for help matching features to your needs.
+See [best tower fans](/best-tower-fans/) for ranked picks, or the [tower fan buying guide](/tower-fan-buying-guide/) for help matching features to your needs.

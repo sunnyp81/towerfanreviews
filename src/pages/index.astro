@@ -26,10 +26,15 @@ const categories = [
 ];
 
 const brands = ['Dyson', 'Dreo', 'Levoit', 'Honeywell', 'Dimplex', 'Shark', 'Silvercrest', 'MeacoFan'];
+
+// Hero stats must be counted, never asserted. See /how-we-rate/.
+const brandCount = new Set(products.map((p) => p.brand)).size;
+const guideCount = articles.filter((a) => a.data.kind === 'guide' || a.data.kind === 'roundup').length;
+
 const schema = graph(orgSchema(), websiteSchema());
 ---
 <Base
-  title="Tower Fan Reviews: Best UK Tower Fans Tested 2026"
+  title="Tower Fan Reviews: Best UK Tower Fans Compared 2026"
   description={SITE.description}
   path="/"
   schema={schema}
@@ -46,16 +51,16 @@ const schema = graph(orgSchema(), websiteSchema());
           Find the <span class="text-gradient">perfect tower fan</span> for your home
         </h1>
         <p class="mt-5 text-lg sm:text-xl text-ink-500 leading-relaxed max-w-xl">
-          We buy and test tower fans in real UK homes, measuring airflow, noise and running costs, so you can stay cool without overpaying.
+          We compare UK tower fans on published specs, verified owner reviews and the running costs we work out ourselves, so you can stay cool without overpaying.
         </p>
         <div class="mt-8 flex flex-wrap gap-3">
           <a href="/best-tower-fans/" class="btn btn-cta text-base">See the best tower fans</a>
           <a href="/tower-fan-buying-guide/" class="btn btn-ghost text-base">Read the buying guide</a>
         </div>
         <dl class="mt-10 flex flex-wrap gap-x-10 gap-y-4">
-          <div><dt class="text-sm text-ink-400">Fans reviewed</dt><dd class="font-display font-bold text-2xl text-ink-900">{Math.max(products.length, 30)}+</dd></div>
-          <div><dt class="text-sm text-ink-400">Hours of testing</dt><dd class="font-display font-bold text-2xl text-ink-900">120+</dd></div>
-          <div><dt class="text-sm text-ink-400">Brands covered</dt><dd class="font-display font-bold text-2xl text-ink-900">15+</dd></div>
+          <div><dt class="text-sm text-ink-400">Fans compared</dt><dd class="font-display font-bold text-2xl text-ink-900">{products.length}</dd></div>
+          <div><dt class="text-sm text-ink-400">Brands covered</dt><dd class="font-display font-bold text-2xl text-ink-900">{brandCount}</dd></div>
+          <div><dt class="text-sm text-ink-400">Guides published</dt><dd class="font-display font-bold text-2xl text-ink-900">{guideCount}</dd></div>
         </dl>
       </div>
 
@@ -75,7 +80,7 @@ const schema = graph(orgSchema(), websiteSchema());
   <section class="border-y border-breeze-100 bg-white">
     <div class="mx-auto max-w-6xl px-4 py-5 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-ink-500">
       {[
-        ['Hands-on testing in UK homes', 'M12 8v4l3 2'],
+        ['Specs and owner reviews, compared', 'M12 8v4l3 2'],
         ['Updated for the 2026 heatwave season', 'M12 2v4M12 18v4M2 12h4M18 12h4'],
         ['No paid placements, ever', 'm9 12 2 2 4-4'],
         ['Running-cost calculations included', 'M3 3v18h18'],
@@ -90,7 +95,7 @@ const schema = graph(orgSchema(), websiteSchema());
     <div class="flex items-end justify-between gap-4 flex-wrap mb-8">
       <div>
         <h2 class="text-3xl sm:text-4xl">Shop by what matters to you</h2>
-        <p class="mt-2 text-ink-500">Whatever you need from a tower fan, we have a tested pick for it.</p>
+        <p class="mt-2 text-ink-500">Whatever you need from a tower fan, we have a top pick for it.</p>
       </div>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -103,7 +108,7 @@ const schema = graph(orgSchema(), websiteSchema());
             </span>
             <h3 class="text-xl">{c.name}</h3>
             <p class="mt-1.5 text-sm text-ink-500">{c.desc}</p>
-            <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-breeze-700 group-hover:text-heat-500">View picks <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-breeze-700 group-hover:text-heat-700">View picks <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
           </div>
         </a>
       ))}
@@ -121,6 +126,11 @@ const schema = graph(orgSchema(), websiteSchema());
           </div>
           <a href="/best-tower-fans/" class="btn btn-ghost">See all top picks</a>
         </div>
+        {/* These cards are the first affiliate links on the homepage, so the disclosure
+            has to come before them, not just in the footer. */}
+        <p class="mb-6 rounded-lg border border-breeze-100 bg-white px-4 py-3 text-sm text-ink-700">
+          We may earn a commission if you buy through links below, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/how-we-rate/" class="font-medium text-breeze-700 underline underline-offset-2">How we rate fans</a>.
+        </p>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {topPicks.map((p, i) => <ProductCard product={p} rank={i + 1} />)}
         </div>
@@ -145,21 +155,21 @@ const schema = graph(orgSchema(), websiteSchema());
     </section>
   )}
 
-  <!-- HOW WE TEST -->
+  <!-- HOW WE RATE -->
   <section class="mx-auto max-w-6xl px-4 py-8">
     <div class="rounded-3xl bg-breeze-900 text-white overflow-hidden relative">
       <div class="absolute inset-0 bg-dot-grid opacity-20" aria-hidden="true"></div>
       <div class="relative grid lg:grid-cols-2 gap-8 p-8 sm:p-12 items-center">
         <div>
-          <h2 class="text-white text-3xl">How we test tower fans</h2>
-          <p class="mt-3 text-breeze-100/90 leading-relaxed">Every fan we recommend is judged on the things that actually matter in a British summer: how much air it really moves, how loud it is on the lowest useful setting, how cheap it is to run, and how easy it is to live with day to day.</p>
-          <a href="/how-we-test/" class="btn btn-cta mt-6">Our testing process</a>
+          <h2 class="text-white text-3xl">How we rate tower fans</h2>
+          <p class="mt-3 text-breeze-100/90 leading-relaxed">We do not run a test lab. We rate every fan on the things that actually matter in a British summer, using published specifications, verified owner reviews and running costs we calculate ourselves.</p>
+          <a href="/how-we-rate/" class="btn btn-cta mt-6">Our research method</a>
         </div>
         <ul class="grid sm:grid-cols-2 gap-4">
           {[
-            ['Airflow', 'Measured reach and oscillation coverage'],
-            ['Noise', 'Decibel checks at sleep and max speed'],
-            ['Running cost', 'Real pence-per-hour at UK energy prices'],
+            ['Airflow', 'Stated reach and oscillation coverage'],
+            ['Noise', 'Manufacturer figures and owner reports'],
+            ['Running cost', 'Pence-per-hour we work out ourselves'],
             ['Build & features', 'Timers, remotes, app control and safety'],
           ].map(([t, d]) => (
             <li class="rounded-xl bg-white/10 p-4 border border-white/10"><p class="font-display font-semibold text-white">{t}</p><p class="text-sm text-breeze-100/80 mt-1">{d}</p></li>

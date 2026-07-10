@@ -8,23 +8,27 @@ const cols = [
     { name: 'Hot & Cold Fans', href: '/best-tower-fan-heaters/' },
     { name: 'Quiet Tower Fans', href: '/best-quiet-tower-fans/' },
     { name: 'With Remote', href: '/best-tower-fans-with-remote/' },
+    { name: 'Mini Tower Fans', href: '/best-mini-tower-fans/' },
   ]},
   { title: 'By brand', links: [
     { name: 'Dyson', href: '/dyson-tower-fans/' },
     { name: 'Dreo', href: '/dreo-tower-fans/' },
     { name: 'Levoit', href: '/levoit-tower-fans/' },
     { name: 'Honeywell', href: '/honeywell-tower-fans/' },
+    { name: 'Shark', href: '/shark-tower-fans/' },
+    { name: 'Silvercrest', href: '/silvercrest-tower-fans/' },
     { name: 'All brands', href: '/brands/' },
   ]},
   { title: 'Guides', links: [
     { name: 'Tower fan buying guide', href: '/tower-fan-buying-guide/' },
     { name: 'Running costs', href: '/tower-fan-running-cost/' },
     { name: 'How to clean a tower fan', href: '/how-to-clean-a-tower-fan/' },
+    { name: 'Where to buy in the UK', href: '/where-to-buy-tower-fans-uk/' },
     { name: 'All guides', href: '/guides/' },
   ]},
   { title: 'About', links: [
     { name: 'About us', href: '/about/' },
-    { name: 'How we test', href: '/how-we-test/' },
+    { name: 'How we rate', href: '/how-we-rate/' },
     { name: 'Contact', href: '/contact/' },
     { name: 'Privacy & affiliate disclosure', href: '/privacy/' },
   ]},
@@ -40,11 +44,13 @@ const cols = [
           </span>
           <span class="font-display font-bold text-lg text-white">Tower Fan Reviews</span>
         </div>
-        <p class="mt-4 text-sm text-breeze-200/80 max-w-xs leading-relaxed">{SITE.tagline}. We buy and test tower fans in real UK homes so you can pick the right one with confidence.</p>
+        <p class="mt-4 text-sm text-breeze-200/80 max-w-xs leading-relaxed">{SITE.tagline}. We compare tower fans on published specs, owner reviews and running costs so you can pick the right one with confidence.</p>
       </div>
       {cols.map((c) => (
         <div>
-          <h3 class="text-white text-sm font-display font-semibold mb-3">{c.title}</h3>
+          {/* Link-group labels, not document structure: as <h3> they created an
+              h1 -> h3 skip on any page without its own <h2> (e.g. /contact/, /404/). */}
+          <p class="text-white text-sm font-display font-semibold mb-3">{c.title}</p>
           <ul class="space-y-2 text-sm">
             {c.links.map((l) => <li><a href={l.href} class="text-breeze-200/80 hover:text-white transition-colors">{l.name}</a></li>)}
           </ul>

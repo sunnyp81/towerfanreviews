@@ -4,6 +4,10 @@ title: "How to Clean a Tower Fan (Without Taking It Apart)"
 description: "Clean your tower fan properly using compressed air, a vacuum and gap brushes - no screwdriver needed. Step-by-step guide for sealed and removable-grille models."
 h1: "How to Clean a Tower Fan Without Taking It Apart"
 heroEyebrow: "Tower fan guide"
+items:
+  - dyson-cool-am07
+  - silvercrest-bladeless-tower-fan
+  - vortex-air-pro
 updatedDate: 2026-06-21
 featured: false
 faqs:
